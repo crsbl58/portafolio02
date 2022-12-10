@@ -1,6 +1,6 @@
 const estadoInicial = {
-  profileMovi00: { opacity: 0, transform: "translate(10rem, 0)" },
-  profileMovi01: { opacity: 1, transform: "translate(10rem, 0)" },
+  profileMovi00: { opacity: 1, transform: "translate(0rem, 0)" },
+  profileMovi01: { opacity: 1, transform: "translate(0rem, 0)" },
 };
 
 function rootReducer(estado = estadoInicial, accion) {

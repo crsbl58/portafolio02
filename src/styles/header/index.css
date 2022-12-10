@@ -130,6 +130,7 @@ position: absolute;
 header {
   background: rgb(21, 43, 54);
 padding: 4rem 0 0 0;
+overflow: hidden;
 }
 
 .divContainerHeader00 {

@@ -1,6 +1,6 @@
 
 main{
-    height: auto;
+   overflow: hidden;
    /*  background-color: rgb(223, 229, 237); */
    background-color: white;
 }

@@ -10,13 +10,13 @@ import { useDispatch } from "react-redux";
 
 function App() {
   let stateScroll = null;
-  const dispatch = useDispatch();
+/*   const dispatch = useDispatch(); */
   return (
-    <React.Fragment>
+    <>
       <div className="App">
-    {/*     <Nav /> */}
+ {/*      <Nav />  */}
         <div
-          onScroll={(e) => {
+      /*     onScroll={(e) => {
             let heightScroll =
               e.currentTarget.scrollHeight - e.currentTarget.offsetHeight;
             let scroll00 = heightScroll / 100;
@@ -48,7 +48,7 @@ function App() {
               });
             }
 
-    /*        if (stateScroll > 20) {
+      if (stateScroll > 20) {
               console.log("xd");
               dispatch({
                 type: "PROFILE_MOVI01",
@@ -69,16 +69,16 @@ function App() {
                   transform: "translate(10rem,0)",
                 },
               });
-            } */
-          }}
+            } 
+          }} */
           className="containerApp"
         >
-          <Header />
-          <Main />
+    <Header /> 
+     <Main />
           <Footer />
         </div>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
