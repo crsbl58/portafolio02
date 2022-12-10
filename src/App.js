@@ -25,7 +25,7 @@ function App() {
 
             console.log(stateScroll);
 
-            if (stateScroll > 10 ) {
+            if (stateScroll > 10 && stateScroll < 11 ) {
               console.log("hola");
               dispatch({
                 type: "PROFILE_MOVI00",
@@ -36,7 +36,7 @@ function App() {
                 },
               });
             }
-            if (stateScroll < 10 ) {
+            if (stateScroll < 10 && stateScroll > 9 ) {
               console.log("dddd");
               dispatch({
                 type: "PROFILE_MOVI00",
@@ -48,7 +48,7 @@ function App() {
               });
             }
 
-           if (stateScroll > 20) {
+    /*        if (stateScroll > 20) {
               console.log("xd");
               dispatch({
                 type: "PROFILE_MOVI01",
@@ -69,7 +69,7 @@ function App() {
                   transform: "translate(10rem,0)",
                 },
               });
-            }
+            } */
           }}
           className="containerApp"
         >
