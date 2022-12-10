@@ -1,0 +1,118 @@
+
+
+.divContainerProfile02 {
+  align-items: center;
+  gap: 1rem;
+  width: 13rem;
+}
+
+.divContainerProfile01 {
+  margin: 2rem 0 0 0;
+  padding: 3rem 5rem 3rem 5rem;
+  gap: 3rem;
+  justify-content: center;
+  transition: 1s;
+}
+
+.divContainerProfile03 {
+  gap: 1rem;
+  align-items: center;
+  transition: 1s;
+}
+
+.divContainerProfile03 > h1 {
+  font-size: 2rem;
+  padding: .5rem 1rem .5rem 1rem;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  background-color: rgb(21, 43, 54);
+}
+.divContainerProfile03 > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding: 0 10rem 0 10rem;
+  color: rgb(37, 83, 122);
+}
+
+.divContainerProfile05 {
+  font-size: 1.5rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: rgb(60, 81, 99);
+  background-color: rgb(212, 226, 240);;
+  width: 100%;
+  text-align: center;
+  padding: .3rem 0 .3rem 0;
+}
+
+.divContainerProfile06 {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  font-weight: 600;
+  color: rgb(37, 83, 122);
+}
+
+.divContainerProfile07 {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.divContainerProfile07 > h1{
+  color: rgb(255, 255, 255);
+  background-color: rgb(21, 43, 54);
+  font-family: "Raleway", sans-serif;
+  padding: .5rem 2rem .5rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.divContainerProfile09 {
+  background-color: rgb(212, 226, 240);
+  width: 20rem;
+  padding: 0.5rem 0 0.5rem 0;
+}
+
+.divContainerProfile09 > h2 {
+  color: rgb(52, 77, 83);
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  text-align: center;
+}
+
+.divContainerProfile08 {
+
+  width: 45rem;
+}
+.divContainerProfile10 {
+ 
+}
+
+.divContainerProfile10 > h2 {
+  font-family: "Raleway", sans-serif;
+  color: rgb(37, 83, 122);
+  font-size: 1.2rem;
+  padding: .3rem 0 .3rem 1rem;
+}
+
+.divContainerProfile11 {
+ border-radius: 0 0 .5rem .5rem;
+  background-color: rgb(154, 187, 209);
+  gap: .5rem;
+  padding: .5rem 1rem .5rem 1rem;
+}
+
+.divContainerProfile11 > h3 {
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border: solid .1rem white;
+  padding: .2rem .3rem .2rem .3rem;
+  border-radius: .5rem;
+}
+
+.divContainerProfile07 {
+  padding: 4rem 0 4rem 0;
+}

@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+html,
+body,
+#root,
+.App {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.containerApp {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+}
+
+
+.containerApp::-webkit-scrollbar-thumb {
+  background-color: rgb(203, 213, 223);
+  border-radius: 1rem;
+  transition: 1s;
+  box-shadow: -0.5vh 0vh 1vh 0vh rgba(93, 111, 114, 0.075);
+}
+
+.containerApp::-webkit-scrollbar {
+  width: 1vw;
+  height: 0rem;
+
+  transition: 1s;
+}
+

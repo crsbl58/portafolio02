@@ -1,0 +1,24 @@
+@media only screen and (max-width: 750px) {
+  .divContainerHeader00 {
+    flex-flow: column nowrap;
+  }
+
+  .divContainerHeader02 {
+    width:20rem;
+  }
+
+.divContainerHeader01{
+    width: 95%;
+}
+
+.divContainerHeader01 > h1:nth-child(1) {
+    font-size: 3.5rem;
+  }
+  .divContainerHeader01 > h1:nth-child(2) {
+    text-align: center;
+      padding:.5rem;
+/*       width:18rem; */
+  }
+
+
+  }

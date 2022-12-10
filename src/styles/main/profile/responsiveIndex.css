@@ -1,0 +1,15 @@
+@media only screen and (max-width: 750px) {
+    .divContainerProfile03 > h2 {
+        padding: 0 4rem 0 4rem;
+      }
+      
+      .divContainerProfile08{
+        width:95%;
+      }
+
+      .divContainerProfile09 {
+        
+        width: 95%;
+
+      }
+    }

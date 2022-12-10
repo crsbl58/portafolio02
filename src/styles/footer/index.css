@@ -1,0 +1,21 @@
+
+footer{
+    align-items: center;
+    padding: 2rem 0 4rem 0;
+}
+
+footer > img{
+    transition: .3s;
+}
+
+footer > img:hover {
+background-color: rgb(149, 166, 192);
+border-radius: 50%;
+}
+
+footer > h2{
+    background-color: #1B1F23;
+    color: white;
+    padding: .3rem 1rem .3rem 1rem;
+    border-radius: .5rem;
+}

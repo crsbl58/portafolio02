@@ -1,0 +1,186 @@
+.baseAnimation {
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+
+.codeVisual0{fill:#7C7B7B;}
+.codeVisual1{fill:#6E6D6D;}
+.codeVisual2{fill:#61605F;}
+.codeVisual3{fill:#575656;}
+.codeVisual4{fill:#717070;}
+.codeVisual5{fill:#4F4E4E;}
+.codeVisual6{fill:#886089;}
+.codeVisual7{fill:#BB6172;}
+.codeVisual8{fill:#6B85BF;}
+.codeVisual9{fill:#637EAD;}
+.codeVisual10{fill:#EFEFEF;}
+.codeVisual11{fill:#777777;}
+
+
+
+
+
+  .footerHeader0{fill:white; animation-name: movementFooterHeader00;
+    animation-duration: 10s;}
+  .footerHeader1{fill:rgb(21, 43, 54);
+   
+  }
+
+  @keyframes movementFooterHeader00 {
+    50%{
+      d: path("M100,20H0c0-2.9,0-5.8,0-8.7c6.6,1.3,16.5,2.8,28.6,2.6c11.7-0.2,19-1.8,32.3-3.7c9.3-1.3,22.6-2.9,39.1-3.9 C100,10.9,100,15.4,100,20z")
+ 
+    }
+  }
+
+
+/* model*/
+.modelFormalPc0 {
+  fill: #cedadd;
+  animation-name: movementMausePar0;
+  animation-duration: 7s;
+}
+@keyframes movementMausePar0 {
+  50% {
+    d: path(
+      "M30.74,132.71c-1.26,1.5-5.7,6.38-12.24,5.5c-1.88-0.25-3.52-0.92-4.83-1.64c-1.35-5.59,2.03-10.99,6.89-11.75 C25.03,124.12,29.67,127.53,30.74,132.71z"
+    );
+  }
+}
+.modelFormalPc1 {
+  fill: #c5d1d3;
+  animation-name: movementMausePar1;
+  animation-duration: 7s;
+}
+@keyframes movementMausePar1 {
+  50% {
+    d: path(
+      "M29.44,131.75c-1.17,1.29-5.28,5.48-11.22,4.84c-1.7-0.18-3.19-0.72-4.37-1.32c-1.14-4.71,2.02-9.34,6.45-10.05 C24.37,124.57,28.54,127.39,29.44,131.75z"
+    );
+  }
+}
+.modelFormalPc2 {
+  fill: #e2e0d7;
+  animation-duration: 7s;
+  animation-name: movementHandMause;
+}
+
+@keyframes movementHandMause {
+  50% {
+    d: path(
+      "M33.3,126.29l-9.65,9.73c-0.25,0.05-4.41,0.73-7.17-2.35c-2.06-2.3-1.91-5.1-1.87-5.64 c2.99-3.8,5.97-7.6,8.96-11.4L33.3,126.29z"
+    );
+  }
+}
+
+.modelFormalPc3 {
+  fill: #bfd5d8;
+}
+.modelFormalPc4 {
+  fill: #505e5e;
+}
+.modelFormalPc5 {
+  fill: #d9d7d1;
+}
+.modelFormalPc6 {
+  fill: #474437;
+}
+.modelFormalPc7 {
+  fill: #4f4c3f;
+}
+.modelFormalPc8 {
+  animation-duration: 0.2s;
+  animation-name: blinkScreen0;
+  opacity: 0.1;
+  fill: #ffffff;
+}
+
+@keyframes blinkScreen0 {
+  50% {
+    opacity: 0.01;
+  }
+}
+
+.modelFormalPc9 {
+  animation-duration: 0.2s;
+  animation-name: blinkScreen0;
+  opacity: 0.09;
+  fill: #ffffff;
+}
+@keyframes blinkScreen0 {
+  50% {
+    opacity: 0.01;
+  }
+}
+.modelFormalPc10 {
+  fill: #c7dbde;
+}
+.modelFormalPc11 {
+  fill: #587073;
+}
+.modelFormalPc12 {
+  fill: #5e6868;
+}
+.modelFormalPc13 {
+  fill: #c8d4d6;
+}
+
+  
+/* icono mundo */
+.icoWorld0 {
+  fill: #add3ec;
+}
+.icoWorld1 {
+  fill: #cce0b7;
+}
+
+/* icono casa */
+.icoHome0 {
+  fill: #e4daa8;
+}
+.icoHome1 {
+  fill: #c1ad97;
+}
+.icoHome2 {
+  fill: #bfaf9f;
+}
+.icoHome3 {
+  fill: #c6b19e;
+}
+.icoHome4 {
+  fill: #c4b8ad;
+}
+.icoHome5 {
+  fill: #9dbfb3;
+}
+.icoHome6 {
+  fill: #b7b2ae;
+}
+.icoHome7 {
+  fill: #e7e2df;
+}
+.icoHome8 {
+  fill: #bcbaa2;
+}
+.icoHome9 {
+  fill: #bcb9ad;
+}
+.icoHome10 {
+  fill: #aa9f96;
+}
+
+
+/* icono formacion */
+.icoTraining0 {
+  fill: #909091;
+  stroke: #878787;
+  stroke-width: 0.15;
+  stroke-miterlimit: 10;
+}
+.icoTraining1 {
+  fill: #e0e4c6;
+}
+.icoTraining2 {
+  fill: #9c9b9b;
+}

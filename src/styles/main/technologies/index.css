@@ -1,0 +1,65 @@
+.divTechnologies00{
+    gap:1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(31, 34, 32);
+    padding: 1rem 0 1rem 0;
+}
+
+.divTechnologies00> h1{
+background-color: white;
+padding: 0.5rem 2rem 0.5rem 2rem;
+font-family: "Raleway", sans-serif;
+}
+
+.divTechnologies01{
+    gap:1rem;
+    justify-content: center;
+    padding: 1rem;
+    background-color: rgb(38, 44, 48);
+}
+
+.divTechnologies02{
+    width:8rem;
+    justify-content: center;
+    gap:.5rem;
+
+}
+
+.divTechnologies02>h4{
+    background-color: rgb(47, 61, 80);
+    padding: .5rem 0 .5rem 0;
+    font-family: "Raleway", sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.imgTechnologies00{
+    width:5rem;
+    transition: .3s;
+    filter: sepia(.3);
+}
+
+.imgTechnologies00:hover{
+transform: scale(1.1); 
+filter: sepia(0);
+}
+
+.divTechnologies03{
+    display: flex;
+    justify-content: center;
+}
+
+.divTechnologies04{
+    gap:1rem;
+    padding: 2rem 8rem 2rem 8rem;
+    justify-content: center;
+}
+
+.divTechnologies04> h2{
+    font-family: "Raleway", sans-serif;
+    background-color: white;
+    padding: .2rem .5rem .2rem .5rem;
+    border-radius: .3rem;
+}
