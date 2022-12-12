@@ -20,6 +20,11 @@
   transition: 1s;
 }
 
+.divContainerProfile04{
+  padding: 1rem;
+
+}
+
 .divContainerProfile03 > h1 {
   font-size: 2rem;
   padding: .5rem 1rem .5rem 1rem;
