@@ -8,13 +8,13 @@ const Footer = () => {
         onClick={() => {
           window.open("https://github.com/crsbl/", "_blank");
         }}
-        style={{ width: "5rem", cursor:"pointer" }}
+        style={{ width: "4rem", cursor:"pointer" }}
         src={svgGithub}
       ></img> <img
       onClick={() => {
         window.open("https://www.linkedin.com/in/cristobal-ortega-290594216/", "_blank");
       }}
-      style={{ width: "5rem", cursor:"pointer" }}
+      style={{ width: "4rem", cursor:"pointer" }}
       src={svgLinkedIn}
     ></img>
     </footer>

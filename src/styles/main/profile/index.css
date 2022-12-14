@@ -22,7 +22,8 @@
 
 .divContainerProfile04{
   padding: 1rem;
-
+border:solid .1rem rgb(193, 210, 210);
+border-radius: 50%;
 }
 
 .divContainerProfile03 > h1 {
@@ -64,6 +65,7 @@
   justify-content: center;
   align-items: center;
   gap: 1rem;
+  transition: 1s;
 }
 
 .divContainerProfile07 > h1{

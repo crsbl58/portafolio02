@@ -8,7 +8,7 @@ cursor: pointer;
 }
 .divContainerHeader01> a > button:hover{
   border:solid .1rem rgb(202, 204, 101);
-  color: rgb(202, 204, 101);
+  color: rgb(106, 191, 204);
   }
 .divContainerHeader01> a {
   width: 17rem;
@@ -21,6 +21,7 @@ cursor: pointer;
   color: white;
   background-color: rgb(21, 43, 54);
   border:solid .1rem white;
+  
 }
 .divContainerHeader01 > h1:nth-child(1) {
   color: rgb(203, 214, 223);

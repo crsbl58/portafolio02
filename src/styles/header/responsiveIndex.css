@@ -23,7 +23,12 @@
   .divContainerHeader01 > h1:nth-child(3) {
 
     font-size: 3rem;
+  }
 
+  .divContainerHeader01 > h1:nth-child(3) {
+      height: 4rem;
+   
   
   }
+
   }

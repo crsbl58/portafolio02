@@ -59,7 +59,7 @@ console.log(selector);
   return (
     <div className={`divContainerProfile00 flexColumn }`}>
       <div style={selector.profileMovi00} className="divContainerProfile03 flexColumn ">
-        <h1>Presentacion</h1>
+        <h1>Presentación</h1>
         <h2>
           ||En constante aprendizaje, al igual en busca de dar la mejor
           ilustración, frente a los diferentes desarrollos, tanto desafiantes
@@ -85,7 +85,7 @@ console.log(selector);
           );
         })}
       </div>
-      <div className="divContainerProfile07 flexColumn">
+      <div style={selector.profileMovi02} className="divContainerProfile07 flexColumn">
         <h1>Experiencia laboral</h1>
         {stateProfile01.map((liststateProfile01) => {
           return (

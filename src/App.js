@@ -9,14 +9,14 @@ import Footer from "./components/footer";
 import { useDispatch } from "react-redux";
 
 function App() {
-/*   let stateScroll = null;
-  const dispatch = useDispatch();  */
+ let stateScroll = null;
+  const dispatch = useDispatch();  
   return (
     <>
       <div className="App">
  {/*      <Nav />  */}
         <div
-   /*         onScroll={(e) => {
+            onScroll={(e) => {
             let heightScroll =
               e.currentTarget.scrollHeight - e.currentTarget.offsetHeight;
             let scroll00 = heightScroll / 100;
@@ -25,7 +25,7 @@ function App() {
 
             console.log(stateScroll);
 
-            if (stateScroll > 10 && stateScroll < 11 ) {
+            if (stateScroll > 10) {
               console.log("hola");
               dispatch({
                 type: "PROFILE_MOVI00",
@@ -36,18 +36,8 @@ function App() {
                 },
               });
             }
-         if (stateScroll < 10 && stateScroll > 9 ) {
-              console.log("dddd");
-              dispatch({
-                type: "PROFILE_MOVI00",
-                payload: {
-                  filter: "blur(.5rem)",
-                  opacity: 0,
-                  transform: "translate(10rem,0)",
-                },
-              });
-            }
-      if (stateScroll > 20) {
+   
+    if (stateScroll > 25) {
               console.log("xd");
               dispatch({
                 type: "PROFILE_MOVI01",
@@ -58,18 +48,29 @@ function App() {
                 },
               });
             }
-         if (stateScroll < 20) {
-              console.log("xd");
+    
+            if (stateScroll > 40) {
               dispatch({
-                type: "PROFILE_MOVI01",
+                type: "PROFILE_MOVI02",
                 payload: {
-                  filter: "blur(.5rem)",
-                  opacity: 0,
-                  transform: "translate(10rem,0)",
+                  filter: "blur(0rem)",
+                  opacity: 1,
+                  transform: "translate(0,0)",
                 },
               });
-            }  
-          }} */
+            }
+            if (stateScroll > 80) {
+              dispatch({
+                type: "TECHNOLOGIES_MOVI00",
+                payload: {
+                  filter: "blur(0rem)",
+                  opacity: 1,
+                  transform: "translate(0,0)",
+                },
+              });
+            }
+
+          }} 
           className="containerApp"
         >
     <Header /> 
