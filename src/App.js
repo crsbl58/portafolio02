@@ -59,7 +59,7 @@ function App() {
                 },
               });
             }
-            if (stateScroll > 80) {
+            if (stateScroll > 70) {
               dispatch({
                 type: "TECHNOLOGIES_MOVI00",
                 payload: {
