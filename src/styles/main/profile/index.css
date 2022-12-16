@@ -1,4 +1,8 @@
 
+.divContainerProfile00{
+  padding: 2rem 0 5rem 0;
+}
+
 
 .divContainerProfile02 {
   align-items: center;
@@ -122,4 +126,30 @@ border-radius: 50%;
 
 .divContainerProfile07 {
   padding: 4rem 0 4rem 0;
+}
+
+
+.divContainerProfile12 {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: 1s;
+  padding: 2rem 0 0 0;
+}
+
+.divContainerProfile12 > h1{
+  color: rgb(255, 255, 255);
+  background-color: rgb(21, 43, 54);
+  font-family: "Raleway", sans-serif;
+  padding: .5rem 2rem .5rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.divContainerProfile12 > h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  padding: 0 10rem 0 10rem;
+  color: rgb(37, 83, 122);
 }

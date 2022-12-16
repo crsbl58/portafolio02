@@ -1,6 +1,6 @@
 import "../../styles/header/index.css";
 import "../../styles/header/responsiveIndex.css";
-import cssIllustrations from "../../svg/index.jsx";
+import svgIllustrations from "../../svg/index.jsx";
 import curriculum from "../../pdf/CVCRISTOBALORTEGA.pdf";
 
 const Header = () => {
@@ -17,11 +17,11 @@ const Header = () => {
          
         </div>
         <div className="divContainerHeader02">
-          {cssIllustrations().FormalModelPC}
+          {svgIllustrations().FormalModelPC}
         </div>
       </div>
       <div className="divContainerFooterHeader">
-        {cssIllustrations().footerHeader}
+        {svgIllustrations().footerHeader}
       </div>
     </header>
   );

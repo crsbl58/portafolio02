@@ -2,6 +2,7 @@ const estadoInicial = {
   profileMovi00: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
   profileMovi01: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
   profileMovi02: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
+  profileMovi03: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
   technologiesMovi00: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
 };
 
@@ -23,6 +24,11 @@ function rootReducer(estado = estadoInicial, accion) {
           ...estado,
           profileMovi02: accion.payload,
         };
+        case "PROFILE_MOVI03":
+          return {
+            ...estado,
+            profileMovi03: accion.payload,
+          };
         case "TECHNOLOGIES_MOVI00":
           return {
             ...estado,

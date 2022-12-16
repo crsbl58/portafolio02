@@ -3,7 +3,8 @@ import { useState } from "react";
 import "../../../styles/main/profile/index.css";
 import "../../../styles/main/profile/responsiveIndex.css";
 import svg from "../../../svg/index";
-import { useSelector } from 'react-redux'
+
+import { useSelector } from "react-redux";
 
 const Profile = () => {
   const [stateProfile00] = useState([
@@ -49,16 +50,15 @@ const Profile = () => {
       ],
     },
   ]);
-  const selector = useSelector((state) => state)
-
-useEffect(()=>{
-console.log(selector);
-
-},[])
+  const selector = useSelector((state) => state);
 
   return (
     <div className={`divContainerProfile00 flexColumn }`}>
-      <div style={selector.profileMovi00} className="divContainerProfile03 flexColumn ">
+      {/*  <div style={{width:"10rem"}}>{svg().wallpaper00}</div> */}
+      <div
+        style={selector.profileMovi00}
+        className="divContainerProfile03 flexColumn "
+      >
         <h1>Presentación</h1>
         <h2>
           ||En constante aprendizaje, al igual en busca de dar la mejor
@@ -68,7 +68,10 @@ console.log(selector);
           información tengan el protagonismo.
         </h2>
       </div>
-      <div style={selector.profileMovi01} className="divContainerProfile01 flexRowWrap">
+      <div
+        style={selector.profileMovi01}
+        className="divContainerProfile01 flexRowWrap"
+      >
         {stateProfile00.map((listStateProfile) => {
           return (
             <div className="divContainerProfile02 flexColumn">
@@ -85,7 +88,10 @@ console.log(selector);
           );
         })}
       </div>
-      <div style={selector.profileMovi02} className="divContainerProfile07 flexColumn">
+      <div
+        style={selector.profileMovi02}
+        className="divContainerProfile07 flexColumn"
+      >
         <h1>Experiencia laboral</h1>
         {stateProfile01.map((liststateProfile01) => {
           return (
@@ -107,6 +113,17 @@ console.log(selector);
             </div>
           );
         })}
+      </div>
+
+      <div  style={selector.profileMovi03} className="divContainerProfile12 flexColumn">
+        <h1>Aspiraciones</h1>
+        <h2>
+          Mis aspiraciones profesionales, estan concretadas en desarrollar
+          constante aprendisaje, asi lograr estar siempre a la
+          vanguardia, en las tecnologias mas actuales y solicitadas,
+          con el objetivo de perfilar como un profesional capaz y adecuado 
+          ante cualquier tarea.   
+        </h2>
       </div>
     </div>
   );

@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className="App">
- {/*      <Nav />  */}
+     {/*  <Nav />  */}
         <div
             onScroll={(e) => {
             let heightScroll =
@@ -52,6 +52,16 @@ function App() {
             if (stateScroll > 40) {
               dispatch({
                 type: "PROFILE_MOVI02",
+                payload: {
+                  filter: "blur(0rem)",
+                  opacity: 1,
+                  transform: "translate(0,0)",
+                },
+              });
+            }
+            if (stateScroll > 60) {
+              dispatch({
+                type: "PROFILE_MOVI03",
                 payload: {
                   filter: "blur(0rem)",
                   opacity: 1,

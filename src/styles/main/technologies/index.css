@@ -42,7 +42,7 @@ font-family: "Raleway", sans-serif;
 }
 
 .imgTechnologies00{
-    background-color: rgb(60, 81, 95);
+    background-color: rgba(60, 81, 95, 0.459);
     border-radius: 20%;
     padding: .5rem;
     width:5rem;
@@ -58,6 +58,28 @@ filter: sepia(0);
 .divTechnologies04{
     display: flex;
     justify-content: center;
+position: relative;
+z-index: 1;
+}
+
+.divTechnologies04 > img{
+    position: relative;
+    z-index: 2;
+}
+
+.divTechnologies04 > div{
+    top:-.5rem;
+width: 7rem;
+z-index: 1;
+position: absolute;
+animation-name: html5BackgroundMoviDiv;
+animation-duration: 10s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+@keyframes html5BackgroundMoviDiv{
+    100%{transform:rotate(360deg)}
 }
 
 .divTechnologies05{
@@ -70,6 +92,6 @@ filter: sepia(0);
     font-family: "Raleway", sans-serif;
     background-color: white;
     padding: .2rem .5rem .2rem .5rem;
-    border-radius: .3rem;
+    border-radius: .2rem;
     box-shadow: 0rem .1rem .1rem .1rem white;
 }
