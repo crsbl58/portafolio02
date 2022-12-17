@@ -30,10 +30,12 @@ const Technologies = () => {
     {
       title: "Node.js",
       img00: imgNode_00,
+      img01:svg().nodeBackground,
     },
     {
       title: "Express",
       img00: imgExpress_00,
+      img01:svg().expressBackground,
     },
   ]);
   const [stateTechnologies01] = useState([

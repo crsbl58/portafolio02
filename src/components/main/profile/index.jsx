@@ -8,16 +8,16 @@ import { useSelector } from "react-redux";
 
 const Profile = () => {
   const [stateProfile00] = useState([
-    { title: "Nacionalidad", info: "Chileno", svg: svg().icoWorld },
+    { title: "Nacionalidad", info: "Chileno", svg00: svg().icoWorld, svg01:svg().profile00Background },
     {
       title: "Residencia",
       info: "Sexta Región, San Vicente de Tagua Tagua",
-      svg: svg().icoHome,
+      svg00: svg().icoHome,
     },
     {
       title: "Formación",
       info: "AIEP Téc. Nivel Superior Programación Computacional.",
-      svg: svg().icoTraining,
+      svg00: svg().icoTraining,
     },
   ]);
   const [stateProfile01] = useState([
@@ -76,7 +76,8 @@ const Profile = () => {
           return (
             <div className="divContainerProfile02 flexColumn">
               <div className="divContainerProfile04" style={{ width: "5rem" }}>
-                {listStateProfile.svg}
+                <div>{listStateProfile.svg00}</div>
+                {/* <div>{listStateProfile.svg01}</div> */}
               </div>
               <div className="divContainerProfile05">
                 {listStateProfile.title}
