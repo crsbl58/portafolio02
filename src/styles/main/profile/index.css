@@ -26,9 +26,14 @@
 
 .divContainerProfile04{
   padding: 1rem;
-border:solid .1rem rgb(193, 210, 210);
+border-bottom:solid .1rem rgb(37, 83, 122);
+border-top: solid .1rem rgb(37, 83, 122);
 border-radius: 50%;
+position: relative;
+
 }
+
+
 
 .divContainerProfile03 > h1 {
   font-size: 2rem;
@@ -152,4 +157,25 @@ border-radius: 50%;
   font-family: "Raleway", sans-serif;
   padding: 0 10rem 0 10rem;
   color: rgb(37, 83, 122);
+}
+
+.divContainerProfile13{
+  border-left:solid .1rem rgb(60, 81, 99);
+  border-right:solid .1rem rgb(60, 81, 99);
+  border-radius: 50%;
+  padding: 4rem;
+top:-.5rem;
+left:-.6rem;
+  animation-name: profileMovi;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+  background-color: rgba(102, 95, 95, 0.123) ;
+}
+
+@keyframes profileMovi {
+  100%{
+    transform:rotate(360deg);
+  }
 }

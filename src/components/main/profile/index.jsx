@@ -8,7 +8,12 @@ import { useSelector } from "react-redux";
 
 const Profile = () => {
   const [stateProfile00] = useState([
-    { title: "Nacionalidad", info: "Chileno", svg00: svg().icoWorld, svg01:svg().profile00Background },
+    {
+      title: "Nacionalidad",
+      info: "Chileno",
+      svg00: svg().icoWorld,
+      svg01: svg().profile00Background,
+    },
     {
       title: "Residencia",
       info: "Sexta Región, San Vicente de Tagua Tagua",
@@ -75,9 +80,10 @@ const Profile = () => {
         {stateProfile00.map((listStateProfile) => {
           return (
             <div className="divContainerProfile02 flexColumn">
-              <div className="divContainerProfile04" style={{ width: "5rem" }}>
-                <div>{listStateProfile.svg00}</div>
-                {/* <div>{listStateProfile.svg01}</div> */}
+              <div className="divContainerProfile04">
+                <div className="divContainerProfile13">    </div>
+                  <div style={{ width: "5rem", height: "5rem", position: "relative" }}>{listStateProfile.svg00}</div>
+            
               </div>
               <div className="divContainerProfile05">
                 {listStateProfile.title}
@@ -116,14 +122,16 @@ const Profile = () => {
         })}
       </div>
 
-      <div  style={selector.profileMovi03} className="divContainerProfile12 flexColumn">
+      <div
+        style={selector.profileMovi03}
+        className="divContainerProfile12 flexColumn"
+      >
         <h1>Aspiraciones</h1>
         <h2>
           Mis aspiraciones profesionales, estan concretadas en desarrollar
-          constante aprendisaje, asi lograr estar siempre a la
-          vanguardia, en las tecnologias mas actuales y solicitadas,
-          con el objetivo de perfilar como un profesional capaz y adecuado 
-          ante cualquier tarea.   
+          constante aprendisaje, asi lograr estar siempre a la vanguardia, en
+          las tecnologias mas actuales y solicitadas, con el objetivo de
+          perfilar como un profesional capaz y adecuado ante cualquier tarea.
         </h2>
       </div>
     </div>

@@ -256,14 +256,15 @@ const svgIllustrations = () => {
       </svg>,
     ],
     footerHeader: [
-      <svg version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 20">
-        <rect class="footerHeader1" width="100" height="20" />
-        <path
-          class="baseAnimation footerHeader0"
-          d="M100,20H0c0-1,0-2.1,0-3.1c6.5-3.2,16.3-6.9,28.4-7.4c14-0.6,20.5,3.7,32.3,4c9.4,0.3,22.8-2,39.3-13.4
-     C100,6.7,100,13.3,100,20z"
-        />
-      </svg>,
+      <svg version="1.1"  x="0px" y="0px"
+      viewBox="0 0 100 20">
+  
+   <rect class="footerHeader0" width="100" height="20"/>
+   <path class="footerHeader1" d="M100,20H0c0-1,0-1.9,0-2.9c6.2-2,15.6-4.4,27.1-4.9C45.4,11.4,53,15.9,67,14.4c8.2-0.9,19.7-4.1,33-14.4
+     C100,6.7,100,13.3,100,20z"/>
+   <path class="footerHeader2" d="M100,20H0c0-0.8,0-1.5,0-2.3c5.9-1.8,15.4-4.1,27.2-4.3c18.2-0.3,25.8,4.6,40.1,3.3C75,16,86.5,13.3,100,3.4
+     C100,9,100,14.5,100,20z"/>
+   </svg>,
     ],
     icoWorld: [
       <svg version="1.1" x="0px" y="0px" viewBox="0 0 28.3 28.3">
