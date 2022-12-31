@@ -10,7 +10,7 @@ import imgSlider05 from "../../../svg/img/slider05.jpg";
 import { useDispatch, useSelector } from "react-redux";
 
 const Slider = () => {
-  const CardSlider = ({url, numCard, name, img }) => {
+  const CardSlider = ({ url, numCard, name, img }) => {
     const dispatch = useDispatch();
 
     const selector = useSelector((state) => state.stateCard);
@@ -36,8 +36,6 @@ const Slider = () => {
             type: "SELECTION_CARD",
             payload: numCard,
           });
-       
-        
         }}
         style={
           selector.selectionCard === numCard
@@ -58,12 +56,13 @@ const Slider = () => {
   }}*/
       >
         <h2>{name}</h2>
-        <button onClick={()=>{
-             window.open(
-              url,
-              "_blank"
-            );
-        }}>Vistar</button>
+        <button
+          onClick={() => {
+            window.open(url, "_blank");
+          }}
+        >
+          Vistar
+        </button>
         <img src={img}></img>
       </div>
     );
@@ -78,13 +77,38 @@ const Slider = () => {
           numCard={0}
           name={"Portafolio"}
           img={imgSlider00}
-          url={""}
+          url={"https://portafolio-frontend-drab.vercel.app/"}
         />
-        <CardSlider numCard={1} name={"template"} img={imgSlider01} url={"https://test-seven-psi-61.vercel.app/"} />
-        <CardSlider numCard={2} name={"template"} img={imgSlider02} url={"https://test-propulso.vercel.app/#"} />
-        <CardSlider numCard={3} name={"template"} img={imgSlider03} url={"https://prueba04.vercel.app/"} />
-        <CardSlider numCard={4} name={"template"} img={imgSlider04} url={"https://datos-pais.vercel.app/"} />
-        <CardSlider numCard={5} name={"template "} img={imgSlider05} url={"https://cugat-publicidad-kleg.vercel.app/"} />
+        <CardSlider
+          numCard={1}
+          name={"template"}
+          img={imgSlider01}
+          url={"https://test-seven-psi-61.vercel.app/"}
+        />
+        <CardSlider
+          numCard={2}
+          name={"template"}
+          img={imgSlider02}
+          url={"https://test-propulso.vercel.app/#"}
+        />
+        <CardSlider
+          numCard={3}
+          name={"template"}
+          img={imgSlider03}
+          url={"https://prueba04.vercel.app/"}
+        />
+        <CardSlider
+          numCard={4}
+          name={"template"}
+          img={imgSlider04}
+          url={"https://datos-pais.vercel.app/"}
+        />
+        <CardSlider
+          numCard={5}
+          name={"template "}
+          img={imgSlider05}
+          url={"https://cugat-publicidad-kleg.vercel.app/"}
+        />
       </div>
     </div>
   );
