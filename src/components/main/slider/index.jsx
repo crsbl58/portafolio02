@@ -60,7 +60,7 @@ const Slider = () => {
             window.open(url, "_blank");
           }}
         >
-          Vistar
+          Visitar
         </button>
         <img src={img}></img>
       </div>
