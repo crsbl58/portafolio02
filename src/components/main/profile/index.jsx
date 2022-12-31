@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+
 import { useState } from "react";
 import "../../../styles/main/profile/index.css";
 import "../../../styles/main/profile/responsiveIndex.css";
@@ -55,8 +55,8 @@ const Profile = () => {
       ],
     },
   ]);
-  const selector = useSelector((state) => state);
-
+  const selector = useSelector((state) => state.scrollReducer);
+console.log(selector);
   return (
     <div className={`divContainerProfile00 flexColumn }`}>
       {/*  <div style={{width:"10rem"}}>{svg().wallpaper00}</div> */}

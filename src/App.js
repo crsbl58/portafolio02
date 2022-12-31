@@ -6,17 +6,27 @@ import Main from "./components/main/index";
 import React, { useState } from "react";
 import Nav from "./components/nav/index";
 import Footer from "./components/footer";
-import { useDispatch } from "react-redux";
+import { useDispatch,useSelector } from "react-redux";
+import Model from "./components/model/index";
 
 function App() {
- let stateScroll = null;
-  const dispatch = useDispatch();  
+  let stateScroll = null;
+  const dispatch = useDispatch();
+  const [stateModal, setStateModal] = useState({ modelImgPdfStatus: false });
+
+
+
+
+
+    const selector = useSelector((state) => state.ModelReducer);
+
+
   return (
     <>
       <div className="App">
-     {/*  <Nav />  */}
+        {/*  <Nav />  */}
         <div
-            onScroll={(e) => {
+          onScroll={(e) => {
             let heightScroll =
               e.currentTarget.scrollHeight - e.currentTarget.offsetHeight;
             let scroll00 = heightScroll / 100;
@@ -36,8 +46,8 @@ function App() {
                 },
               });
             }
-   
-    if (stateScroll > 25) {
+
+            if (stateScroll > 25) {
               console.log("xd");
               dispatch({
                 type: "PROFILE_MOVI01",
@@ -48,7 +58,7 @@ function App() {
                 },
               });
             }
-    
+
             if (stateScroll > 40) {
               dispatch({
                 type: "PROFILE_MOVI02",
@@ -79,12 +89,12 @@ function App() {
                 },
               });
             }
-
-          }} 
+          }}
           className="containerApp"
         >
-    <Header /> 
-     <Main />
+     {selector.stateModel ? <Model /> : <React.Fragment/>}     
+          <Header />
+          <Main />
           <Footer />
         </div>
       </div>

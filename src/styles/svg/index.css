@@ -131,7 +131,7 @@
   animation-duration: 0.2s;
   animation-name: blinkScreen0;
   opacity: 0.1;
-  fill: #ffffff;
+  fill: #ffffff8a;
 }
 
 @keyframes blinkScreen0 {
@@ -144,7 +144,7 @@
   animation-duration: 0.2s;
   animation-name: blinkScreen0;
   opacity: 0.09;
-  fill: #ffffff;
+  fill: #ffffff4d;
 }
 @keyframes blinkScreen0 {
   50% {

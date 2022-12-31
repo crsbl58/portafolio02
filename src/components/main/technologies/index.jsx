@@ -53,7 +53,7 @@ const Technologies = () => {
     "reactrouterdom",
   ]);
 
-  const selector = useSelector((state) => state);
+  const selector = useSelector((state) => state.scrollReducer);
 
   return (
     <div className="divTechnologies00">

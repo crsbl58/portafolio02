@@ -1,0 +1,32 @@
+.divContainerDemos00{
+    background-color: brown;
+    align-items: center;
+    padding: 2rem 0 2rem 0;
+   gap:1rem;
+}
+
+.divContainerDemos00 > h1{
+    background-color: white;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-family: "Raleway", sans-serif;
+}
+
+.divContainerDemos01{
+    gap:1rem;
+}
+
+
+
+.btnContainerDemos00{
+    border:solid .1rem wheat;
+    padding: .5rem ;
+    align-items: center;color: wheat;
+    font-family: "Raleway", sans-serif;
+    background: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.divContainerDemo02{
+    
+}
