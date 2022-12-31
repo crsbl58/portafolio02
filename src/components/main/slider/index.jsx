@@ -1,6 +1,5 @@
 import "../../../styles/main/slider/index.css";
 import "../../../styles/main/slider/responsiveIndex.css";
-import { useState } from "react";
 import imgSlider00 from "../../../svg/img/slider00.jpg";
 import imgSlider01 from "../../../svg/img/slider01.jpg";
 import imgSlider02 from "../../../svg/img/slider02.jpg";
