@@ -22,7 +22,6 @@ const Slider = () => {
       },
       style001: {
         width: "  7rem",
-        height: "20rem",
         filter: "grayscale(100%) ",
         clipPath: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)",
       },

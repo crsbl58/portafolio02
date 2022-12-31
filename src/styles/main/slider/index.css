@@ -25,13 +25,15 @@
 
 .divContainerSlider02 {
   justify-content: center;
-
+  height: 10rem;
   box-shadow: inset 2rem 0 1rem 1rem wheat;
   transition: 0.5s;
-  height: 20rem;
+  height: 15rem;
 position: relative;
   align-items: center;
+
 }
+
 
 .divContainerSlider02 > img {
   object-fit: cover;

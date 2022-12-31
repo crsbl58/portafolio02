@@ -12,11 +12,6 @@ import Model from "./components/model/index";
 function App() {
   let stateScroll = null;
   const dispatch = useDispatch();
-  const [stateModal, setStateModal] = useState({ modelImgPdfStatus: false });
-
-
-
-
 
     const selector = useSelector((state) => state.ModelReducer);
 
