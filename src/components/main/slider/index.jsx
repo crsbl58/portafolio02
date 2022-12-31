@@ -71,7 +71,7 @@ const Slider = () => {
 
   return (
     <div className="divContainerSlider00 flexColumn">
-      <h1>Templates</h1>
+      <h1>Template</h1>
 
       <div className="divContainerSlider01 flexRow">
         <CardSlider
