@@ -1,9 +1,9 @@
 const estadoInicial = {
-    profileMovi00: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
-    profileMovi01: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
-    profileMovi02: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
-    profileMovi03: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
-    technologiesMovi00: { filter: "blur(.5rem)",opacity: 0, transform: "translate(0rem, 5rem)" },
+    profileMovi00: { filter: "blur(.0rem)",opacity: 1, transform: "translate(0rem, 0rem)" },
+    profileMovi01: { filter: "blur(.0rem)",opacity: 1, transform: "translate(0rem, 0rem)" },
+    profileMovi02: { filter: "blur(.0rem)",opacity: 1, transform: "translate(0rem, 0rem)" },
+    profileMovi03: { filter: "blur(.0rem)",opacity: 1, transform: "translate(0rem, 0rem)" },
+    technologiesMovi00: { filter: "blur(.0rem)",opacity: 1, transform: "translate(0rem, 0rem)" },
   };
   
   function rootReducer(estado = estadoInicial, accion) {

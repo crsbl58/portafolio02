@@ -14,7 +14,7 @@
 .divContainerSlider01 {
   /* box-shadow: inset 0 0 1rem 1rem rgb(34, 43, 51); */
   gap: 1rem;
-  padding: 2rem 0 2rem 0;
+  padding: 2rem 2rem 2rem 2rem;
 
   background-color: rgb(40, 50, 59);
   width: 100%;

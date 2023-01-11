@@ -46,7 +46,7 @@ const Demos = () => {
 
   const BaseDemo = ({ svg, ComponentDemo }) => {
     return (
-      <div className="divContainerDemo02 flexRow">
+      <div  className="divContainerDemo02 flexRow">
         <div
           style={{
             width: "5rem",

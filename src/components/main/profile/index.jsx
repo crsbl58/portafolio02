@@ -58,13 +58,13 @@ const Profile = () => {
   const selector = useSelector((state) => state.scrollReducer);
 console.log(selector);
   return (
-    <div className={`divContainerProfile00 flexColumn }`}>
+    <div id="about" className={`divContainerProfile00 flexColumn }`}>
       {/*  <div style={{width:"10rem"}}>{svg().wallpaper00}</div> */}
       <div
         style={selector.profileMovi00}
         className="divContainerProfile03 flexColumn "
       >
-        <h1>Presentación</h1>
+        <h1>Acerca de mí</h1>
         <h2>
           ||En constante aprendizaje, al igual en busca de dar la mejor
           ilustración, frente a los diferentes desarrollos, tanto desafiantes

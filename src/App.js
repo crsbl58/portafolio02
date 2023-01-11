@@ -19,9 +19,9 @@ function App() {
   return (
     <>
       <div className="App">
-        {/*  <Nav />  */}
-        <div
-          onScroll={(e) => {
+        { <Nav />  }
+       <div
+    /*       onScroll={(e) => {
             let heightScroll =
               e.currentTarget.scrollHeight - e.currentTarget.offsetHeight;
             let scroll00 = heightScroll / 100;
@@ -84,14 +84,14 @@ function App() {
                 },
               });
             }
-          }}
-          className="containerApp"
+          }} */
+         id="containerApp" className="containerApp"
         >
      {selector.stateModel ? <Model /> : <React.Fragment/>}     
           <Header />
           <Main />
           <Footer />
-        </div>
+       </div> 
       </div>
     </>
   );

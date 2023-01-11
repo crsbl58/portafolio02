@@ -5,7 +5,7 @@ import curriculum from "../../pdf/CVCRISTOBALORTEGA.pdf";
 
 const Header = () => {
   return (
-    <header className="flexColumn">
+    <header id="home" className="flexColumn">
       <div className="divContainerHeader00 flexRow">
         <div className="divContainerHeader01 flexColumn">
           <h1>Developer</h1>
