@@ -1,5 +1,6 @@
 @media only screen and (max-width: 750px) {
   .divContainerHeader00 {
+    padding: 1rem 0 0 0;
     flex-flow: column nowrap;
   }
 
