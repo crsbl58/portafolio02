@@ -46,8 +46,10 @@ position: relative;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 0 10rem 0 10rem;
+   padding: 1rem;
+width: 70vw;
   color: rgb(37, 83, 122);
+  border:solid .1rem rgb(66, 108, 148);
 }
 
 .divContainerProfile05 {
@@ -155,7 +157,9 @@ position: relative;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 0 10rem 0 10rem;
+  padding: 1rem;
+  width: 70vw;
+  border: solid .1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
 }
 

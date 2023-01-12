@@ -1,7 +1,8 @@
 @media only screen and (max-width: 750px) {
   .divContainerSlider01 {
     flex-flow: row wrap;
-
+    padding: 2rem 4rem 2rem 4rem;
+    
 
   }
 }

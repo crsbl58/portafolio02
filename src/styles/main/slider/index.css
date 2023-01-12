@@ -13,11 +13,9 @@
 
 .divContainerSlider01 {
   /* box-shadow: inset 0 0 1rem 1rem rgb(34, 43, 51); */
-  gap: 1rem;
-  padding: 2rem 2rem 2rem 2rem;
-
+  gap: 2rem;
+  padding: 2rem 9rem 2rem 9rem;
   background-color: rgb(40, 50, 59);
-  width: 100%;
   justify-content: center;
   align-items: center;
   position:relative;
@@ -26,13 +24,22 @@
 .divContainerSlider02 {
   justify-content: center;
   height: 10rem;
+  width: 18rem;
   box-shadow: inset 2rem 0 1rem 1rem wheat;
   transition: 0.5s;
   height: 15rem;
 position: relative;
   align-items: center;
+  filter: grayscale(100%);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%);
+}
+.divContainerSlider02:hover {
+  filter: grayscale(20%);
+  clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
 
 }
+
+
 
 
 .divContainerSlider02 > img {
@@ -48,7 +55,7 @@ position: relative;
 .divContainerSlider02 > h2 {
 top:3rem;
   width: 100%;
-  background-color: rgb(44, 41, 41);
+  background-color: rgba(44, 41, 41, 0.733);
   text-align: center;
   position: absolute;
   z-index: 1;
@@ -63,7 +70,7 @@ top:3rem;
    padding: .2rem 1rem .2rem 1rem;
 width: 100%;
 border:none;
-    background-color: rgb(38, 43, 70);
+    background-color: rgba(38, 43, 70, 0.767);
     font-weight:700;
     font-size: 1.3rem;
     text-align: center;

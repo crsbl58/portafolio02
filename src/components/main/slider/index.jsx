@@ -21,7 +21,7 @@ const Slider = () => {
         clipPath: "polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%)",
       },
       style001: {
-        width: "  7rem",
+        width: "  18rem",
         filter: "grayscale(100%) ",
         clipPath: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)",
       },
@@ -35,11 +35,11 @@ const Slider = () => {
             payload: numCard,
           });
         }}
-        style={
+     /*    style={
           selector.selectionCard === numCard
             ? typeStyle.style00
             : typeStyle.style001
-        }
+        } */
         className="divContainerSlider02 flexColumn"
         /*     onClick={() => {
               
@@ -70,7 +70,7 @@ const Slider = () => {
     <div id="templates" className="divContainerSlider00 flexColumn">
       <h1>Paginas</h1>
 
-      <div className="divContainerSlider01 flexRow">
+      <div className="divContainerSlider01 flexRowWrap">
         <CardSlider
           numCard={0}
           name={"Portafolio"}

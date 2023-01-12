@@ -1,7 +1,6 @@
 .divContainerHeader01{
   gap:1rem;
-  padding: 0 2rem 0 2rem;
-
+  padding: 0 2rem 2rem 2rem;
 }
 .divContainerHeader01> a > button{
 cursor: pointer;
@@ -149,7 +148,8 @@ position: absolute;
 }
 
 header {
-  background: rgb(21, 43, 54);
+
+  background: linear-gradient(0deg, rgb(21, 43, 54) 9%, rgb(21, 43, 54) 49%, rgba(18,18,19,1) 89%);
 padding: 4rem 0 0 0;
 overflow: hidden;
 }
