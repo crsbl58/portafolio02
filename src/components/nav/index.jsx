@@ -40,6 +40,7 @@ const Nav = () => {
         </li>
         <li>
           <Link
+          offset={100}
             onSetInactive={() => {
               dispatch({
                 type: "PROFILE_MOVI00",
@@ -118,6 +119,7 @@ const Nav = () => {
         </li>
         <li>
           <Link
+          
             onSetInactive={() => {
               dispatch({
                 type: "TECHNOLOGIES_MOVI00",
