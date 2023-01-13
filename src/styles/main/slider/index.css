@@ -3,7 +3,29 @@
   padding: 7rem 0 4rem 0;
   align-items: center;
   gap: 1rem;
+  position: relative;
+  z-index: 1;
 }
+
+.divContainerSlider00::after{
+content: "";
+position: absolute;
+background-color: rgb(53, 46, 92);
+width: 0%;
+height: 100%;
+top:0;
+left:-15%;
+z-index: -1;
+transform: skew(-25deg,0);
+transition: 1s;
+}
+
+.divContainerSlider00:hover::after{
+  width: 65%;
+
+ 
+  }
+
 
 .divContainerSlider00 > h1 {
   background-color: white;
@@ -16,10 +38,10 @@
   gap: 2rem;
   transition: 1s;
   padding: 2rem 9rem 2rem 9rem;
-  background-color: rgb(40, 50, 59);
+  background-color: rgba(40, 50, 59, 0.534);
   justify-content: center;
   align-items: center;
-  position:relative;
+  position: relative;
 }
 
 .divContainerSlider02 {
@@ -29,23 +51,18 @@
   box-shadow: inset 2rem 0 1rem 1rem wheat;
   transition: 0.5s;
   height: 15rem;
-position: relative;
+  position: relative;
   align-items: center;
   filter: grayscale(100%);
   clip-path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 95%);
-display: flex;
-align-items:center;
-justify-content:flex-start;
-
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
 .divContainerSlider02:hover {
   filter: grayscale(20%);
   clip-path: polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%);
-
 }
-
-
-
 
 .divContainerSlider02 > img {
   object-fit: cover;
@@ -54,44 +71,41 @@ justify-content:flex-start;
   z-index: 0;
   display: flex;
   justify-content: center;
-position: absolute;
+  position: absolute;
 }
 
 .divContainerSlider02 > h2 {
-padding: 2rem 0 1rem 0 ;
+  padding: 2rem 0 1rem 0;
   width: 100%;
-  
+
   background-color: rgba(76, 97, 153, 0.849);
   text-align: center;
   position: relative;
   z-index: 1;
   color: rgb(209, 183, 33);
   font-family: "Raleway", sans-serif;
-
 }
 
 .divContainerSlider02:hover > button {
   opacity: 1;
 }
 
-
 .divContainerSlider02 > button {
-  transition: .3s  ;
+  transition: 0.3s;
   cursor: pointer;
-  opacity: 0.3;
-   padding: .2rem 1rem .2rem 1rem;
-width: 100%;
-border:none;
-    background-color: rgba(38, 43, 70, 0.842);
-    font-weight:700;
-    font-size: 1.3rem;
-    text-align: center;
-    position: relative;
-    z-index: 1;
-    color: rgb(155, 169, 196);
-    font-family: "Raleway", sans-serif;
-  }
-  .divContainerSlider02 > button:hover {
-      background-color: rgb(67, 73, 109);
-    
-    }
+  opacity: 0.8;
+  padding: 0.2rem 1rem 0.2rem 1rem;
+  width: 100%;
+  border: none;
+  background-color: rgba(38, 43, 70, 0.842);
+  font-weight: 700;
+  font-size: 1.3rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: rgb(155, 169, 196);
+  font-family: "Raleway", sans-serif;
+}
+.divContainerSlider02 > button:hover {
+  background-color: rgb(67, 73, 109);
+}

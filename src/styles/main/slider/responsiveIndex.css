@@ -2,7 +2,17 @@
   .divContainerSlider01 {
     flex-flow: row wrap;
     padding: 2rem 4rem 2rem 4rem;
-    
-
   }
+
+  .divContainerSlider00::after{
+    width: 140%;
+    left:-50%;
+
+    }
+    .divContainerSlider00:hover::after{
+      width: 140%;
+    
+     
+      }
+
 }

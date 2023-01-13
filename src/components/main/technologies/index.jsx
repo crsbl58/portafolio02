@@ -1,4 +1,5 @@
 import "../../../styles/main/technologies/index.css";
+import "../../../styles/main/technologies/responsiveIndex.css";
 import imgHtml5_00 from "../../../svg/img/html.svg";
 import imgCss3_00 from "../../../svg/img/css.svg";
 import imgJavascript_00 from "../../../svg/img/js.svg";

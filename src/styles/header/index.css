@@ -183,10 +183,30 @@ header {
     rgb(21, 43, 54) 9%,
     rgb(21, 43, 54) 49%,
     rgba(18, 18, 19, 1) 89%
-  );
+  );  
   padding: 4rem 0 0 0;
   overflow: hidden;
+position:relative;
+z-index: 1;
 }
+
+header::after{
+  content: "";
+  position:absolute;
+  z-index: -1;
+  width: 0%;
+  height: 70%;
+  background-color: rgba(22, 26, 36, 0.534);
+  transform: skew(5deg, 0);
+  top:0;
+  left: -15%;
+  transition: .5s;
+}
+
+header:hover::after{
+  width: 45%;
+}
+
 
 .divContainerHeader00 {
   display: flex;

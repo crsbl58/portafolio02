@@ -1,15 +1,21 @@
 @media only screen and (max-width: 750px) {
-    .divContainerProfile03 > h2 {
-        padding: 1rem;
-      }
-      .divContainerProfile12 > h2 {
-        padding: 1rem ;
-      }
-      .divContainerProfile08{
-        width:85%;
-      }
+  .divContainerProfile00::after {
+    width: 50%;
+    top: 8%;
+    height: 90%;
+  }
 
-      .divContainerProfile09 {
-        width: 85%;
-      }
-    }
+  .divContainerProfile03 > h2 {
+    padding: 1rem;
+  }
+  .divContainerProfile12 > h2 {
+    padding: 1rem;
+  }
+  .divContainerProfile08 {
+    width: 85%;
+  }
+
+  .divContainerProfile09 {
+    width: 85%;
+  }
+}

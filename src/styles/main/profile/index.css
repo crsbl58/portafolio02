@@ -1,8 +1,25 @@
 
 .divContainerProfile00{
   padding: 14rem 0 5rem 0;
+position: relative;
+z-index: 1;
 }
 
+.divContainerProfile00::after{
+  z-index: -1;
+  content: "";
+position: absolute;
+top:13.5%;
+right: 0;
+height: 85%;
+width: 0%;
+background-color: rgba(187, 206, 226, 0.575);
+transition: 1s;
+}
+.divContainerProfile00:hover:after{
+width: 50%;
+
+}
 
 .divContainerProfile02 {
   align-items: center;
@@ -118,7 +135,7 @@ width: 70vw;
 
 .divContainerProfile11 {
  border-radius: 0 0 .5rem .5rem;
-  background-color: rgb(154, 187, 209);
+  background-color: rgb(135, 171, 196);
   gap: .5rem;
   padding: .5rem 1rem .5rem 1rem;
 }
