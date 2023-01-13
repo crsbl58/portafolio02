@@ -9,6 +9,7 @@
 
 .divContainerHeader01 > a {
   width: 17rem;
+  text-decoration: none;
 }
 .divContainerHeader01 > a > button {
   transition: 0.3s;
@@ -17,17 +18,36 @@
   font-size: 1.5rem;
   color: white;
   background-color: transparent;
-  border: solid 0.15rem rgb(171, 173, 86);
+  border: solid 0.15rem rgb(54, 101, 116);
   color: rgb(90, 161, 172);
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden  ;
 }
 
-
-
-
 .divContainerHeader01 > a > button:hover {
-  border: solid 0.15rem rgb(202, 204, 101);
-  color: rgb(106, 191, 204);
+  border: solid 0.15rem rgb(21, 63, 68);
+  color: rgb(21, 63, 68);
+}
 
+.divContainerHeader01 > a > button::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  background: #7ec0cff6;
+  width: 0%;
+  height: 100%;
+  transition: 0.3s;
+  transform: skew(25deg, 0);
+
+}
+.divContainerHeader01 > a > button:hover::after {
+  width: 110%;
+  z-index: -1;
+  height: 100%;
 }
 .divContainerHeader01 > h1:nth-child(1) {
   /* color: rgb(156, 175, 190); */
