@@ -37,7 +37,7 @@ z-index: -1;
   gap: 1rem;
   justify-content: center;
   padding: 1rem;
-  background-color: rgb(38, 44, 48);
+  background-color: rgba(38, 44, 48, 0.753);
 }
 
 .divTechnologies03 {
