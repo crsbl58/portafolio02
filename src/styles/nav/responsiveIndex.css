@@ -1,7 +1,7 @@
  @media only screen and (max-width: 750px) {
     nav > ul {
       padding: 0.5rem .5rem .5rem .5rem;
- 
+ background-color: rgba(52, 95, 116, 0.534);
     }
       nav > ul > li {
         padding: 0rem .5rem 0rem .5rem;

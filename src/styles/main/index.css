@@ -3,4 +3,5 @@ main{
    overflow: hidden;
    /*  background-color: rgb(223, 229, 237); */
    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%);
+   
 }

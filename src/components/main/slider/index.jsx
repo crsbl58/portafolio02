@@ -9,49 +9,13 @@ import imgSlider05 from "../../../svg/img/slider05.jpg";
 import { useDispatch, useSelector } from "react-redux";
 
 const Slider = () => {
-  const CardSlider = ({ url, numCard, name, img }) => {
-    const dispatch = useDispatch();
+  const selector = useSelector((state) => state.scrollReducer);
 
-    const selector = useSelector((state) => state.stateCard);
-
-    const typeStyle = {
-      style00: {
-        width: "18rem",
-        filter: "grayscale(20%) ",
-        clipPath: "polygon(0% 10%, 100% 0%, 100% 100%, 0% 100%)",
-      },
-      style001: {
-        width: "  18rem",
-        filter: "grayscale(100%) ",
-        clipPath: "polygon(0% 10%, 100% 0%, 100% 90%, 0% 100%)",
-      },
-    };
+  const CardSlider = ({ url, name, img }) => {
 
     return (
       <div
-        onClick={() => {
-          dispatch({
-            type: "SELECTION_CARD",
-            payload: numCard,
-          });
-        }}
-     /*    style={
-          selector.selectionCard === numCard
-            ? typeStyle.style00
-            : typeStyle.style001
-        } */
         className="divContainerSlider02 flexColumn"
-        /*     onClick={() => {
-              
-    dispatch({
-      type: "MODEL_STATE",
-      payload: true,
-    });
-    dispatch({
-      type: "MODEL_IMG",
-      payload: list.img,
-    }); 
-  }}*/
       >
         <h2>{name}</h2>
         <button
@@ -65,12 +29,14 @@ const Slider = () => {
       </div>
     );
   };
-
+  
   return (
     <div id="templates" className="divContainerSlider00 flexColumn">
       <h1>Paginas</h1>
 
-      <div className="divContainerSlider01 flexRowWrap">
+      <div
+      style={selector.sliderMovi00}
+      className="divContainerSlider01 flexRowWrap">
         <CardSlider
           numCard={0}
           name={"Portafolio"}
