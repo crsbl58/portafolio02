@@ -1,6 +1,6 @@
 @media only screen and (max-width: 750px) {
   .divContainerProfile00::after {
-    width: 50%;
+    width: 10%;
     top: 8%;
     height: 90%;
   }

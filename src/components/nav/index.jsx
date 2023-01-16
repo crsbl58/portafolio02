@@ -42,7 +42,7 @@ const Nav = () => {
         <li>
           <Link
              activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
-          offset={100}
+   
             onSetInactive={() => {
               dispatch({
                 type: "PROFILE_MOVI00",

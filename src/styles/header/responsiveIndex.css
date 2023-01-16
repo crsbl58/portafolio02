@@ -8,7 +8,7 @@
     width: 50%;
   }
   .divContainerHeader00 {
-    padding: 1rem 0 0 0;
+    padding: 1rem 0 4rem 0;
     flex-flow: column nowrap;
   }
 
@@ -40,8 +40,20 @@ font-size: 3rem;
 
   .divContainerHeader01 > h1:nth-child(3) {
       height: 4rem;
-   
   
   }
+  .divContainerHeader02::after {
+    top:-10%;
+    border-radius: 80% 40% 60% 50%;
+    left:   -5%;
+    content: "";
+    z-index: -1;
+    position: absolute;
+    width: 200%;
+    height: 130%;
+    background-color: rgba(51, 96, 219, 0.336);
+  }
+
+
 
   }
