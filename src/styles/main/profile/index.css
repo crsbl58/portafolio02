@@ -1,8 +1,9 @@
 
 .divContainerProfile00{
-  padding: 14rem 0 5rem 0;
+  padding: 14rem 0 15rem 0;
 position: relative;
 z-index: 1;
+ background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); 
 }
 
 .divContainerProfile00::after{
@@ -17,7 +18,7 @@ background-color: rgba(187, 206, 226, 0.575);
 transition: 1s;
 }
 .divContainerProfile00:hover:after{
-width: 50%;
+width: 10%;
 
 }
 
@@ -57,7 +58,7 @@ position: relative;
   padding: .5rem 1rem .5rem 1rem;
   font-family: "Raleway", sans-serif;
   color: white;
-  background-color: rgb(21, 43, 54);
+  background-color: rgb(27, 120, 167);
 }
 .divContainerProfile03 > h2 {
   font-size: 1.5rem;
@@ -98,7 +99,7 @@ width: 70vw;
 
 .divContainerProfile07 > h1{
   color: rgb(255, 255, 255);
-  background-color: rgb(21, 43, 54);
+  background-color: rgb(27, 120, 167);
   font-family: "Raleway", sans-serif;
   padding: .5rem 2rem .5rem 2rem;
   text-align: center;
@@ -135,7 +136,7 @@ width: 70vw;
 
 .divContainerProfile11 {
  border-radius: 0 0 .5rem .5rem;
-  background-color: rgb(135, 171, 196);
+ background-color: rgb(27, 120, 167);
   gap: .5rem;
   padding: .5rem 1rem .5rem 1rem;
 }
@@ -163,7 +164,7 @@ width: 70vw;
 
 .divContainerProfile12 > h1{
   color: rgb(255, 255, 255);
-  background-color: rgb(21, 43, 54);
+  background-color: rgb(27, 120, 167);
   font-family: "Raleway", sans-serif;
   padding: .5rem 2rem .5rem 2rem;
   text-align: center;
@@ -192,7 +193,7 @@ left:-.6rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: absolute;
-  background-color: rgba(102, 95, 95, 0.123) ;
+  background-color: rgb(217, 230, 236) ;
 }
 
 @keyframes profileMovi {

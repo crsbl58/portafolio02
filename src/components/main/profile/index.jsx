@@ -58,7 +58,7 @@ const Profile = () => {
   const selector = useSelector((state) => state.scrollReducer);
 console.log(selector);
   return (
-    <div id="about" className={`divContainerProfile00 flexColumn }`}>
+    <div id="about" className={`divContainerProfile00 flexColumn`}>
       {/*  <div style={{width:"10rem"}}>{svg().wallpaper00}</div> */}
       <div
         style={selector.profileMovi00}

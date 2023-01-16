@@ -23,6 +23,8 @@ body,
   height: 100vh;
   overflow: scroll;
   width: 100vw;
+  background-image: url("./svg/img/fondoportafolio.jpg");
+  background: 100% 100%;
 }
 
 

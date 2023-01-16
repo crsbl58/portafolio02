@@ -42,10 +42,10 @@
 
 .footerHeader0 {
 
-  fill: rgb(21, 43, 54);
+  fill: rgba(59, 125, 214, 1);
 }
 .footerHeader1 {
-  fill: rgb(49, 88, 107);
+  fill: rgb(17, 97, 124);
   animation-name: movementFooterHeader01;
   animation-duration: 15s;
   animation-timing-function: linear;

@@ -18,6 +18,9 @@ nav > ul {
 }
 
 nav > ul > li {
+  background-color: rgba(48, 116, 175, 0.856);
+  box-shadow: inset 0 0 .2rem .05rem rgb(39, 56, 61);
+  transform: skew(-25deg, 0);
   border-bottom: solid 0.1rem rgba(55, 81, 110, 0.966);
   border-left: solid 0.1rem rgba(55, 81, 110, 0.603);
   border-radius: 0 0 0.2rem 0.2rem;
@@ -25,7 +28,7 @@ nav > ul > li {
   font-size: 1.5rem;
   font-weight: 800;
   font-family: "Bowlby One SC", cursive;
-  color: rgb(76, 120, 138);
+  color: rgb(216, 226, 230);
   cursor: pointer;
   transition: 0.3s;
   position: relative;
@@ -43,7 +46,7 @@ transition: .3s;
 position: absolute;
 width: 0%;
 height: 100%;
-background-color: rgba(26, 33, 39, 0.856);
+background-color: rgba(47, 177, 144, 0.856);
 transform: skew(15deg,0);
 }
 nav > ul > li:hover:after {
@@ -53,6 +56,5 @@ nav > ul > li:hover:after {
   }
 
 nav > ul > li:hover {
-  color: rgb(97, 155, 179);
-  background-color: rgba(37, 59, 80, 0.856);
+  color: rgb(228, 236, 240);
 }
