@@ -1,8 +1,50 @@
  @media only screen and (max-width: 750px) {
     nav > ul {
       padding: 0.5rem .5rem .5rem .5rem;
- background-color: rgba(52, 95, 116, 0.534);
+
+ visibility: hidden;
     }
+
+nav{
+  background-color: rgba(52, 95, 116, 0.904);
+  top:.5rem;
+  left:.5rem;
+  border-radius: 50%;
+  height: 4.5rem;
+  width: 4.5rem;
+  overflow: hidden;
+  transition: .3s;
+justify-content: center;
+align-items: center;
+}
+nav::after{
+  visibility: visible;
+  position: absolute;
+font-size: 4rem;
+  content: "+";
+color: rgb(176, 199, 223);
+}
+nav:hover::after{
+visibility: hidden;
+}
+
+
+    nav:hover{
+      background-color: rgba(52, 95, 116, 0.534);
+      top:0rem;
+      left:0rem;
+      height: auto;
+      width: auto;
+      overflow: hidden;
+      border-radius: 0%;
+    }
+    nav:hover > ul{
+     visibility: visible;
+    
+    }
+
+
+
       nav > ul > li {
         padding: 0rem .5rem 0rem .5rem;
         font-size: 1.5rem;

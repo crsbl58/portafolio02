@@ -29,7 +29,7 @@
 }
 
 .divContainerHeader01 > a > button:hover {
-  border: solid 0.15rem rgb(82, 127, 148);
+  border: solid 0.15rem rgb(38, 86, 109);
   color: rgb(21, 67, 105);
 }
 
@@ -210,7 +210,7 @@ header::after {
 }
 
 header:hover::after {
-  width: 40%;
+  width: 20%;
 }
 
 .divContainerHeader00 {

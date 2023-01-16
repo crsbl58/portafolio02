@@ -2,8 +2,7 @@
 
 nav {
   display: Flex;
-
-  position: fixed;
+  position: absolute;
   z-index: 10;
 }
 
