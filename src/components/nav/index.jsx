@@ -10,6 +10,7 @@ const Nav = () => {
       <ul className="flexRowWrap">
         <li>
           <Link
+          activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
             onSetInactive={() => {
               dispatch({
                 type: "HOME_MOVI00",
@@ -40,6 +41,7 @@ const Nav = () => {
         </li>
         <li>
           <Link
+             activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
           offset={100}
             onSetInactive={() => {
               dispatch({
@@ -119,7 +121,7 @@ const Nav = () => {
         </li>
         <li>
           <Link
-          
+             activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
             onSetInactive={() => {
               dispatch({
                 type: "TECHNOLOGIES_MOVI00",
@@ -150,6 +152,7 @@ const Nav = () => {
         </li>
         <li>
           <Link
+             activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
             onSetInactive={() => {
               dispatch({
                 type: "SLIDER_MOVI00",
