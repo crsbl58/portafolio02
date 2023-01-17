@@ -1,12 +1,12 @@
  @media only screen and (max-width: 750px) {
     nav > ul {
       padding: 0.5rem .5rem .5rem .5rem;
-
  visibility: hidden;
+ opacity: 0;
     }
 
 nav{
-  background-color: rgba(52, 95, 116, 0.904);
+  background-color: rgba(109, 162, 189, 0.904);
   top:.5rem;
   left:.5rem;
   border-radius: 50%;
@@ -40,7 +40,7 @@ visibility: hidden;
     }
     nav:hover > ul{
      visibility: visible;
-    
+     opacity: 1;
     }
 
 
