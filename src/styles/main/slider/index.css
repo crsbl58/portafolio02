@@ -47,7 +47,7 @@ transition: 1s;
 .divContainerSlider02 {
   justify-content: center;
   height: 10rem;
-  width: 18rem;
+  width: 19rem;
   box-shadow: inset 2rem 0 1rem 1rem wheat;
   transition: 0.5s;
   height: 15rem;
@@ -58,6 +58,20 @@ transition: 1s;
   display: flex;
   align-items: center;
   justify-content: flex-start;
+}
+.divContainerSlider03 {
+  position: relative;
+  z-index: 1;
+  font-size: 1rem;
+  font-weight: 800;
+  color: rgba(242, 252, 244, 0.685);
+  background-color: rgba(61, 136, 170, 0.726);
+  font-family: "Raleway", sans-serif;
+  width: 100%;
+  display: flex;
+
+  text-align: center;
+  padding: .5rem 1rem .5rem 1rem;
 }
 .divContainerSlider02:hover {
   filter: grayscale(20%);
@@ -75,7 +89,7 @@ transition: 1s;
 }
 
 .divContainerSlider02 > h2 {
-  padding: 2rem 0 1rem 0;
+  padding: 2.5rem 0 .5rem 0;
   width: 100%;
 
   background-color: rgba(76, 97, 153, 0.849);
@@ -95,17 +109,17 @@ transition: 1s;
   cursor: pointer;
   opacity: 0.8;
   padding: 0.2rem 1rem 0.2rem 1rem;
-  width: 100%;
+  top:.5rem;
   border: none;
-  background-color: rgba(38, 43, 70, 0.842);
+  background-color: rgba(47, 108, 143, 0.842);
   font-weight: 700;
   font-size: 1.3rem;
   text-align: center;
   position: relative;
   z-index: 1;
-  color: rgb(155, 169, 196);
+  color: rgb(212, 217, 228);
   font-family: "Raleway", sans-serif;
 }
 .divContainerSlider02 > button:hover {
-  background-color: rgb(67, 73, 109);
+  background-color: rgb(59, 161, 130);
 }
