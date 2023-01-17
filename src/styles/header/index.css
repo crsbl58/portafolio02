@@ -17,8 +17,8 @@
   padding: 0.5rem 0 0.5rem 0;
   font-size: 1.5rem;
   background-color: transparent;
-  border: solid 0.15rem rgb(80, 110, 175);
-  color: rgb(202, 219, 221);
+  border: solid 0.15rem rgb(72, 109, 189);
+  color: rgb(229, 234, 241);
   position: relative;
   z-index: 1;
   display: flex;
@@ -51,7 +51,7 @@
   /* color: rgb(156, 175, 190); */
   background: linear-gradient(
     90deg,
-    rgb(176, 195, 216) 0%,
+    rgb(206, 217, 230) 0%,
     rgb(79, 96, 143) 100%
   );
   background-clip: text;
@@ -185,8 +185,8 @@ header {
   background: linear-gradient(
     0deg,
     rgb(94, 156, 238) 42%,
-    rgba(31, 79, 144, 1) 78%,
-    rgba(9, 40, 70, 1) 94%
+    rgb(35, 89, 165) 78%,
+    rgb(15, 60, 105) 94%
   );
 
   padding: 4rem 0 0 0;
