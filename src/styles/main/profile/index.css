@@ -21,6 +21,20 @@ transition: 1s;
 width: 10%;
 
 }
+/* 
+.divContainerProfile00::before{
+  z-index: -1;
+  content: "";
+position: absolute;
+top:0%;
+right: 0;
+height: 85%;
+width: 100%;
+background: linear-gradient(90deg, rgba(207, 228, 253, 0.884) 0%, transparent 50%, rgba(203, 222, 247, 0.884) 100%);
+transition: 1s;
+} */
+
+
 
 .divContainerProfile02 {
   align-items: center;
@@ -44,8 +58,8 @@ width: 10%;
 
 .divContainerProfile04{
   padding: 1rem;
-border-bottom:solid .1rem rgb(37, 83, 122);
-border-top: solid .1rem rgb(37, 83, 122);
+border-bottom:solid .1rem rgba(37, 82, 122, 0.185);
+border-top: solid .1rem rgba(0, 38, 71, 0.199);
 border-radius: 50%;
 position: relative;
 
@@ -68,7 +82,24 @@ position: relative;
 width: 70vw;
   color: rgb(37, 83, 122);
   border:solid .1rem rgb(66, 108, 148);
+  position: relative;
+  z-index: 1;
+  /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); */
+background-color: rgba(255,255,255,1);
 }
+
+.divContainerProfile03 > h2::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: -2.5%;
+  top: 2%;
+width: 105%;
+border: solid .1rem rgb(55, 83, 116);
+transform: skew(-5deg,0);
+}
+
 
 .divContainerProfile05 {
   font-size: 1.5rem;
@@ -175,11 +206,25 @@ width: 70vw;
   font-size: 1.5rem;
   text-align: center;
   font-family: "Raleway", sans-serif;
-  padding: 1rem;
+  padding: 2rem;
   width: 70vw;
   border: solid .1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
+  position: relative;
 }
+
+.divContainerProfile12 > h2::before {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: -2.5%;
+  top: 2%;
+width: 105%;
+border: solid .1rem rgb(55, 83, 116);
+transform: skew(-5deg,0);
+}
+
 
 .divContainerProfile13{
   border-left:solid .1rem rgb(60, 81, 99);
@@ -193,7 +238,7 @@ left:-.6rem;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: absolute;
-  background-color: rgb(217, 230, 236) ;
+/*   background-color: rgb(217, 230, 236) ; */
 }
 
 @keyframes profileMovi {

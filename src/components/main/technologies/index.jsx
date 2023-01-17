@@ -54,6 +54,7 @@ const Technologies = () => {
     "styled",
     "socketio",
     "reactrouterdom",
+    "react-scroll"
   ]);
 
   const selector = useSelector((state) => state.scrollReducer);

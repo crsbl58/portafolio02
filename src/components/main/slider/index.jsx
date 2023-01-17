@@ -14,6 +14,8 @@ const Slider = () => {
   const CardSlider = ({ url, name, img, info }) => {
 
     return (
+   <div className="divContainerSlider05" >
+      <div className="divContainerSlider04"></div>
       <div
         className="divContainerSlider02 flexColumn"
       >
@@ -30,6 +32,7 @@ const Slider = () => {
         </button>
   
         <img src={img}></img>
+      </div>
       </div>
     );
   };

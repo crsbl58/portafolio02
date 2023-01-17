@@ -7,25 +7,22 @@
   z-index: 1;
 }
 
-.divContainerSlider00::after{
-content: "";
-position: absolute;
-background-color: rgb(53, 46, 92);
-width: 20%;
-height: 100%;
-top:0;
-left:-15%;
-z-index: -1;
-transform: skew(-25deg,0);
-transition: 1s;
+.divContainerSlider00::after {
+  content: "";
+  position: absolute;
+  background-color: rgb(53, 46, 92);
+  width: 20%;
+  height: 100%;
+  top: 0;
+  left: -15%;
+  z-index: -1;
+  transform: skew(-25deg, 0);
+  transition: 1s;
 }
 
-.divContainerSlider00:hover::after{
+.divContainerSlider00:hover::after {
   width: 65%;
-
- 
-  }
-
+}
 
 .divContainerSlider00 > h1 {
   background-color: white;
@@ -35,14 +32,44 @@ transition: 1s;
 
 .divContainerSlider01 {
   /* box-shadow: inset 0 0 1rem 1rem rgb(34, 43, 51); */
-  gap: 2rem;
+  gap: 2.5rem;
   transition: 1s;
-  padding: 2rem 9rem 2rem 9rem;
+  padding: 4rem 9rem 2rem 9rem;
   background-color: rgba(40, 50, 59, 0.534);
   justify-content: center;
   align-items: center;
   position: relative;
+  z-index: 1;
 }
+.divContainerSlider01::after {
+  content: "";
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(38, 69, 153, 0.884) 0%, transparent 50%, rgba(25, 41, 62, 0.884) 100%);
+  position: absolute;
+}
+.divContainerSlider04{
+  position: absolute;
+  left: 1rem;
+  top:-2rem;
+  z-index: 0;
+  width: 18.5rem;
+  height: 15rem;
+  background-color: rgb(54, 71, 109);
+  transition: .3s;
+  clip-path: polygon(0% 20%, 100% 5%, 100% 80%, 0% 95%);
+}
+.divContainerSlider05{
+  position: relative;
+}
+
+.divContainerSlider05:hover >.divContainerSlider04{
+  height: 17rem;
+  width: 19rem;
+  clip-path: polygon(0% 15%, 100% 0%, 100% 80%, 0% 95%);
+}
+
 
 .divContainerSlider02 {
   justify-content: center;
@@ -53,25 +80,25 @@ transition: 1s;
   height: 15rem;
   position: relative;
   align-items: center;
-  filter: grayscale(100%);
-  clip-path: polygon(0% 20%, 100% 0%, 100% 80%, 0% 95%);
+  filter: grayscale(80%);
+  clip-path: polygon(0% 20%, 100% 0%, 100% 85%, 0% 95%);
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
+
 .divContainerSlider03 {
   position: relative;
   z-index: 1;
   font-size: 1rem;
   font-weight: 800;
   color: rgba(242, 252, 244, 0.685);
-  background-color: rgba(61, 136, 170, 0.726);
+  background-color: rgba(42, 93, 117, 0.836);
   font-family: "Raleway", sans-serif;
   width: 100%;
   display: flex;
-
   text-align: center;
-  padding: .5rem 1rem .5rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 .divContainerSlider02:hover {
   filter: grayscale(20%);
@@ -89,9 +116,8 @@ transition: 1s;
 }
 
 .divContainerSlider02 > h2 {
-  padding: 2.5rem 0 .5rem 0;
+  padding: 2.5rem 0 0.5rem 0;
   width: 100%;
-
   background-color: rgba(76, 97, 153, 0.849);
   text-align: center;
   position: relative;
@@ -109,7 +135,7 @@ transition: 1s;
   cursor: pointer;
   opacity: 0.8;
   padding: 0.2rem 1rem 0.2rem 1rem;
-  top:.5rem;
+  top: 0.5rem;
   border: none;
   background-color: rgba(47, 108, 143, 0.842);
   font-weight: 700;
