@@ -44,6 +44,7 @@
 }
 
 .divTechnologies01 > h1 {
+  margin-bottom: 2rem;
   background-color: white;
   padding: 0.5rem 2rem 0.5rem 2rem;
   font-family: "Raleway", sans-serif;
@@ -53,7 +54,8 @@
   gap: 1rem;
   justify-content: center;
   padding: 1rem;
-  background-color: rgba(38, 44, 48, 0.753);
+  width: 100%;
+  background: linear-gradient(90deg, rgba(19, 44, 107, 0.884) 0%,rgba(15, 23, 32, 0.884) 50%, rgba(19, 39, 65, 0.884) 100%);
 }
 
 .divTechnologies03 {

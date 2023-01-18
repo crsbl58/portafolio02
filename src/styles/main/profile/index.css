@@ -68,6 +68,7 @@ position: relative;
 
 
 .divContainerProfile03 > h1 {
+  margin-bottom: 2rem;
   font-size: 2rem;
   padding: .5rem 1rem .5rem 1rem;
   font-family: "Raleway", sans-serif;
