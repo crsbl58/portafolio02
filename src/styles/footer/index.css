@@ -5,7 +5,7 @@ footer{
     justify-content: center;
     gap: 1rem;
 /*     background-color: #e5e9ee; */
-    background: radial-gradient(circle, rgb(107, 190, 171) 0%, rgb(58, 93, 141) 51%, rgb(14, 30, 46) 100%);
+    background: radial-gradient(circle, rgb(174, 199, 193) 0%, rgb(58, 93, 141) 51%, rgb(14, 30, 46) 100%);
 }
 
 footer > img{

@@ -1,6 +1,6 @@
 
 .divContainerProfile00{
-  padding: 14rem 0 10rem 0;
+  padding: 10rem 0 10rem 0;
 position: relative;
 z-index: 1;
  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); 
@@ -68,7 +68,7 @@ position: relative;
 
 
 .divContainerProfile03 > h1 {
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;  
   font-size: 2rem;
   padding: .5rem 1rem .5rem 1rem;
   font-family: "Raleway", sans-serif;
