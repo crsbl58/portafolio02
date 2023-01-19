@@ -129,8 +129,8 @@ console.log(selector);
         <h1>Aspiraciones</h1>
         <h2>
           Mis aspiraciones profesionales son desarrollar
-          constante aprendisaje, para estar siempre preparado y a la vanguardia, en
-          las tecnologias mas actuales y solicitadas, con el objetivo de
+          constante aprendizaje, para estar siempre preparado y a la vanguardia, en
+          las tecnologías más actuales y solicitadas, con el objetivo de
           perfilar como un profesional capaz y adecuado ante cualquier tarea.
         </h2>
       </div>
