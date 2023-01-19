@@ -1,5 +1,9 @@
 @media only screen and (max-width: 750px) {
  
+  header{
+    height: auto;
+  }
+
   header::after{
     width: 50%;
 

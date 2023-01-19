@@ -1,4 +1,9 @@
 @media only screen and (max-width: 750px) {
+  
+.divTechnologies00{
+  height: auto;
+}
+  
   .divTechnologies00::after {
     width: 120%;
     right: -5%;
