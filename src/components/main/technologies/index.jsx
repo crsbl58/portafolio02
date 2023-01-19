@@ -76,7 +76,7 @@ const Technologies = () => {
                   <h4>{list.title}</h4>
                   <div className="divTechnologies04">
                     <img className="imgTechnologies00" src={list.img00}></img>
-                  {/*   <div>{list.img01}</div> */}
+                 {/*    <div>{list.img01}</div> */}
                   </div>
                 </div>
               );

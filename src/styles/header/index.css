@@ -188,7 +188,9 @@ header {
     rgb(35, 89, 165) 78%,
     rgb(15, 60, 105) 94%
   );
-
+height: 100vh;
+display: flex;
+justify-content: flex-end;
   padding: 4rem 0 0 0;
   overflow: hidden;
   position: relative;

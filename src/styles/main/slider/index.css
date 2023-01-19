@@ -5,6 +5,9 @@
   gap: 1rem;
   position: relative;
   z-index: 1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 .divContainerSlider00::after {
@@ -34,7 +37,7 @@
   /* box-shadow: inset 0 0 1rem 1rem rgb(34, 43, 51); */
   gap: 2.5rem;
   transition: 1s;
-  padding: 4rem 9rem 2rem 9rem;
+  padding: 4rem 14rem 2rem 14rem;
   background-color: rgba(40, 50, 59, 0.534);
   justify-content: center;
   align-items: center;
