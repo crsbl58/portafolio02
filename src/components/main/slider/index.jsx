@@ -6,6 +6,7 @@ import imgSlider02 from "../../../svg/img/slider02.jpg";
 import imgSlider03 from "../../../svg/img/slider03.jpg";
 import imgSlider04 from "../../../svg/img/slider04.jpg";
 import imgSlider05 from "../../../svg/img/slider05.jpg";
+import imgSlider06 from "../../../svg/img/calendario.jpg";
 import { useSelector } from "react-redux";
 
 const Slider = () => {
@@ -44,12 +45,20 @@ const Slider = () => {
       <div
       style={selector.sliderMovi00}
       className="divContainerSlider01 flexRowWrap">
+     
         <CardSlider
           numCard={0}
           name={"Portafolio"}
           img={imgSlider00}
           url={"https://portafolio-frontend-drab.vercel.app/"}
           info={"Html5, css3, React.js, typeScript, node.js"}
+        />
+              <CardSlider
+          numCard={0}
+          name={"Calendario Reserva"}
+          img={imgSlider06}
+          url={"https://reservas-git-main-crsbl.vercel.app/"}
+          info={"Html5, css3, React.js"}
         />
         <CardSlider
           numCard={1}

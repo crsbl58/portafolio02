@@ -7,6 +7,8 @@ import { useSelector } from "react-redux";
 const Header = () => {
   const selector = useSelector((state) => state.scrollReducer);
 
+
+
   return (
     <header id="home" className="flexColumn">
       <div className="divContainerHeader00 flexRow">
