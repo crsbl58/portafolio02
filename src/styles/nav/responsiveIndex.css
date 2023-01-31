@@ -43,7 +43,12 @@ visibility: hidden;
      opacity: 1;
     }
 
+    nav > ul::after {
 
+      width: 0;
+      height: 0;
+      
+    }
 
       nav > ul > li {
         padding: 0rem .5rem 0rem .5rem;
