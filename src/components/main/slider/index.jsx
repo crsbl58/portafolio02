@@ -62,35 +62,35 @@ const Slider = () => {
         />
         <CardSlider
           numCard={1}
-          name={"template"}
+          name={"Api imagenes"}
           img={imgSlider01}
           url={"https://test-seven-psi-61.vercel.app/"}
           info={"Html5, css3, Next.js"}
         />
         <CardSlider
           numCard={2}
-          name={"template"}
+          name={"Maqueta"}
           img={imgSlider02}
           url={"https://test-propulso.vercel.app/#"}
           info={"Html5, css3"}
         />
         <CardSlider
           numCard={3}
-          name={"template"}
+          name={"Clon IMDb"}
           img={imgSlider03}
           url={"https://prueba04.vercel.app/"}
           info={"Html5, css3"}
         />
         <CardSlider
           numCard={4}
-          name={"template"}
+          name={"Api paises"}
           img={imgSlider04}
           url={"https://datos-pais.vercel.app/"}
           info={"Html5, css3, React.js"}
         />
         <CardSlider
           numCard={5}
-          name={"template "}
+          name={"Letrero "}
           img={imgSlider05}
           url={"https://cugat-publicidad-kleg.vercel.app/"}
           info={"Html5, css3, javascript"}
