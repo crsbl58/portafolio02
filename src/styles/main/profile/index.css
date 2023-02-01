@@ -77,16 +77,23 @@ position: relative;
 }
 .divContainerProfile03 > h2 {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
   font-family: "Raleway", sans-serif;
-   padding: 1rem;
-width: 70vw;
+   padding: 2rem;
+width: 40vw;
   color: rgb(37, 83, 122);
   border:solid .1rem rgb(66, 108, 148);
   position: relative;
   z-index: 1;
   /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); */
-background-color: rgba(255,255,255,1);
+
+hyphens: auto;
+}
+
+.divContainerProfile03 > h2 > img{
+  float: left;
+  margin: 0 1rem 1rem 0;
 }
 
 .divContainerProfile03 > h2::before {
@@ -205,14 +212,20 @@ transform: skew(-5deg,0);
 
 .divContainerProfile12 > h2 {
   font-size: 1.5rem;
-  text-align: center;
+  text-align: left;
+  justify-content: center;
   font-family: "Raleway", sans-serif;
   padding: 2rem;
-  width: 70vw;
+  width: 40vw;
   border: solid .1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
   position: relative;
+  hyphens: auto;
 }
+.divContainerProfile12 > h2 > img{
+float: left;
+}
+
 
 .divContainerProfile12 > h2::before {
   z-index: -1;

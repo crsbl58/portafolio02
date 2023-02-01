@@ -12,52 +12,55 @@ import { useSelector } from "react-redux";
 const Slider = () => {
   const selector = useSelector((state) => state.scrollReducer);
 
-  const CardSlider = ({ url, name, img, info }) => {
-
+  const CardSlider = ({ url, name, img, info, urlgit }) => {
     return (
-   <div className="divContainerSlider05" >
-      <div className="divContainerSlider04"></div>
-      <div
-        className="divContainerSlider02 flexColumn"
-      >
-        <h2>{name}</h2>
-        <div className="divContainerSlider03 flexColumn">
-{info}
+      <div className="divContainerSlider05">
+        <div className="divContainerSlider04"></div>
+        <div className="divContainerSlider02 flexColumn">
+          <h2>{name}</h2>
+          <div className="divContainerSlider03 flexColumn">{info}</div>
+          <button
+            onClick={() => {
+              window.open(url, "_blank");
+            }}
+          >
+            Deploy
+          </button>
+          <button
+            onClick={() => {
+              window.open(urlgit, "_blank");
+            }}
+          >
+            Github
+          </button>
+          <img src={img}></img>
         </div>
-        <button
-          onClick={() => {
-            window.open(url, "_blank");
-          }}
-        >
-          Visitar
-        </button>
-  
-        <img src={img}></img>
-      </div>
       </div>
     );
   };
-  
+
   return (
     <div id="templates" className="divContainerSlider00 flexColumn">
       <h1>Paginas</h1>
 
       <div
-      style={selector.sliderMovi00}
-      className="divContainerSlider01 flexRowWrap">
-     
+        style={selector.sliderMovi00}
+        className="divContainerSlider01 flexRowWrap"
+      >
         <CardSlider
           numCard={0}
           name={"Portafolio"}
           img={imgSlider00}
           url={"https://portafolio-frontend-drab.vercel.app/"}
+          urlgit={"https://github.com/crsbl/portafolioFrontend"}
           info={"Html5, css3, React.js, typeScript, node.js"}
         />
-              <CardSlider
+        <CardSlider
           numCard={0}
           name={"Calendario Reserva"}
           img={imgSlider06}
           url={"https://reservas-git-main-crsbl.vercel.app/"}
+          urlgit={"https://github.com/crsbl/reservas"}
           info={"Html5, css3, React.js"}
         />
         <CardSlider
@@ -65,6 +68,7 @@ const Slider = () => {
           name={"Api imagenes"}
           img={imgSlider01}
           url={"https://test-seven-psi-61.vercel.app/"}
+          urlgit={"https://github.com/crsbl/test"}
           info={"Html5, css3, Next.js"}
         />
         <CardSlider
@@ -72,6 +76,7 @@ const Slider = () => {
           name={"Maqueta"}
           img={imgSlider02}
           url={"https://test-propulso.vercel.app/#"}
+          urlgit={"https://github.com/crsbl/Maqueta00"}
           info={"Html5, css3"}
         />
         <CardSlider
@@ -79,6 +84,7 @@ const Slider = () => {
           name={"Clon IMDb"}
           img={imgSlider03}
           url={"https://prueba04.vercel.app/"}
+          urlgit={"https://github.com/crsbl/prueba04"}
           info={"Html5, css3"}
         />
         <CardSlider
@@ -86,6 +92,7 @@ const Slider = () => {
           name={"Api paises"}
           img={imgSlider04}
           url={"https://datos-pais.vercel.app/"}
+          urlgit={"https://github.com/crsbl/InfoPais"}
           info={"Html5, css3, React.js"}
         />
         <CardSlider
@@ -93,6 +100,7 @@ const Slider = () => {
           name={"Letrero "}
           img={imgSlider05}
           url={"https://cugat-publicidad-kleg.vercel.app/"}
+          urlgit={"https://github.com/crsbl/cugatPublicidad"}
           info={"Html5, css3, javascript"}
         />
       </div>
