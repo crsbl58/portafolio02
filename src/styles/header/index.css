@@ -184,9 +184,9 @@ header {
   );  */
   background: linear-gradient(
     0deg,
-    rgb(94, 156, 238) 42%,
-    rgb(35, 89, 165) 78%,
-    rgb(15, 60, 105) 94%
+    rgb(37, 61, 90) 42%,
+    rgb(8, 23, 43) 78%,
+    rgb(14, 20, 26) 94%
   );
 height: 100vh;
 display: flex;
@@ -203,7 +203,7 @@ header::after {
   z-index: -1;
   width: 20%;
   height: 70%;
-  background-color: rgba(15, 84, 187, 0.822);
+  background-color: rgba(46, 86, 145, 0.822);
   transform: skew(5deg, 0);
   top: 5%;
   left: -15%;
@@ -243,5 +243,5 @@ header:hover::after {
   position: absolute;
   width: 200%;
   height: 160%;
-  background-color: rgba(51, 96, 219, 0.336);
+  background-color: rgba(56, 78, 138, 0.336);
 }
