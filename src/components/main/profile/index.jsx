@@ -6,6 +6,7 @@ import svgLocation from "../../../svg/img/location_map_optimization.svg";
 import svgEducation from "../../../svg/img/certificates_education.svg";
 import svgBriefcase from "../../../svg/img/briefcase_icon.svg";
 import svgLearning from "../../../svg/img/education_learning.svg";
+import starIcon from '../../../svg/img/star_icon.svg'
 
 import { useSelector } from "react-redux";
 
@@ -61,43 +62,43 @@ const Profile = () => {
   const [stateProfile02] = useState([
     {
       title: "Actitud positiva",
-      svg00: svgnationality,
+      svg00: starIcon,
     },
     {
       title: "Resolución de problemas",
-      svg00: svgLocation,
+      svg00: starIcon,
     },
     {
       title: "Control del estrés",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
       title: "Perseverancia",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
-      title: "Tener iniciativa",
-      svg00: svgEducation,
+      title: " iniciativa",
+      svg00: starIcon,
     },
     {
       title: "Creatividad",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
       title: "Flexibilidad",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
       title: "Empatía",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
       title: "Honestidad",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
     {
       title: "Disciplina",
-      svg00: svgEducation,
+      svg00: starIcon,
     },
   ]);
 
@@ -182,9 +183,9 @@ const Profile = () => {
       <div className="divContainerProfile14 flexColumn">
         <h1>Aptitudes</h1>
 
-        <div className="divContainerProfile15">
+        <div className="divContainerProfile15 ">
           {stateProfile02.map((list) => {
-            return <h2>{list.title}</h2>;
+            return <h2><img style={{width:"3rem"}} src={list.svg00}></img> {list.title}</h2>;
           })}
         </div>
       </div>

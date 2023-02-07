@@ -96,7 +96,7 @@
   font-size: 1rem;
   font-weight: 800;
   color: rgba(242, 252, 244, 0.685);
-  background-color: rgba(42, 93, 117, 0.836);
+  background-color: rgba(35, 73, 90, 0.925);
   font-family: "Raleway", sans-serif;
   width: 100%;
   display: flex;
@@ -121,11 +121,11 @@
 .divContainerSlider02 > h2 {
   padding: 2.5rem 0 0.5rem 0;
   width: 100%;
-  background-color: rgba(76, 97, 153, 0.849);
+  background-color: rgba(48, 60, 92, 0.945);
   text-align: center;
   position: relative;
   z-index: 1;
-  color: rgb(209, 183, 33);
+  color: rgb(219, 196, 65);
   font-family: "Raleway", sans-serif;
 }
 

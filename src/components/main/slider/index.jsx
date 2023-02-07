@@ -64,14 +64,6 @@ const Slider = () => {
           info={"Html5, css3, React.js"}
         />
         <CardSlider
-          numCard={1}
-          name={"Api imagenes"}
-          img={imgSlider01}
-          url={"https://test-seven-psi-61.vercel.app/"}
-          urlgit={"https://github.com/crsbl/test"}
-          info={"Html5, css3, Next.js"}
-        />
-        <CardSlider
           numCard={2}
           name={"Maqueta"}
           img={imgSlider02}
@@ -102,6 +94,14 @@ const Slider = () => {
           url={"https://cugat-publicidad-kleg.vercel.app/"}
           urlgit={"https://github.com/crsbl/cugatPublicidad"}
           info={"Html5, css3, javascript"}
+        />{" "}
+        <CardSlider
+          numCard={1}
+          name={"Api imagenes"}
+          img={imgSlider01}
+          url={"https://test-seven-psi-61.vercel.app/"}
+          urlgit={"https://github.com/crsbl/test"}
+          info={"Html5, css3, Next.js"}
         />
       </div>
     </div>

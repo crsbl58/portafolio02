@@ -193,18 +193,17 @@ transition: 1s;
 
 .divContainerProfile15 > h2 {
   font-size: 1.5rem;
-  text-align: left;
-  justify-content: center;
+  display: flex;
+gap: .5rem;
   font-family: "Raleway", sans-serif;
-  border: solid 0.1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
-  text-align: center;
+  align-items: center;
   padding: .5rem;
  
 }
 
 .divContainerProfile15 > h2:hover {
-  border: solid 0.1rem rgb(66, 108, 148);
+ 
   color: rgb(84, 131, 172);
  
 }
