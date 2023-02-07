@@ -21,15 +21,17 @@ nav > ul::after {
   position: absolute;
   z-index: -1;
   width: 103%;
-  height: 3.2rem;
+  height: 3.5rem;
   top:0rem;
   left: -1rem;
-  background-color: rgba(21, 25, 36, 0.781);
+  background-color: rgb(21, 25, 36);
   transform: skew(25deg,0);
+/*   border-bottom:solid .5rem rgb(21, 32, 49); */
+/*   border-right:solid .5rem rgb(21, 32, 49); */
 }
 
 nav > ul > li {
-  background-color: rgba(48, 116, 175, 0.856);
+  background-color: rgb(37, 92, 141);
   box-shadow: inset 0 0 0.2rem 0.05rem rgb(39, 56, 61);
   transform: skew(-25deg, 0);
   border-bottom: solid 0.1rem rgba(55, 81, 110, 0.966);

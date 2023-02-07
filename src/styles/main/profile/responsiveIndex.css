@@ -20,4 +20,12 @@
   .divContainerProfile09 {
     width: 85%;
   }
+
+  .divContainerProfile15 {
+    display: flex;
+    gap: 1rem;
+    flex-flow: row wrap;
+    justify-content: center;
+  }
+
 }

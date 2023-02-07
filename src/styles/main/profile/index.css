@@ -1,25 +1,27 @@
-
-.divContainerProfile00{
+.divContainerProfile00 {
   padding: 10rem 0 10rem 0;
-position: relative;
-z-index: 1;
- background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); 
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(206, 217, 237, 1) 94%
+  );
 }
 
-.divContainerProfile00::after{
+.divContainerProfile00::after {
   z-index: -1;
   content: "";
-position: absolute;
-top:13.5%;
-right: 0;
-height: 85%;
-width: 0%;
-background-color: rgba(187, 206, 226, 0.575);
-transition: 1s;
+  position: absolute;
+  top: 13.5%;
+  right: 0;
+  height: 85%;
+  width: 0%;
+  background-color: rgba(187, 206, 226, 0.575);
+  transition: 1s;
 }
-.divContainerProfile00:hover:after{
-width: 10%;
-
+.divContainerProfile00:hover:after {
+  width: 10%;
 }
 /* 
 .divContainerProfile00::before{
@@ -33,8 +35,6 @@ width: 100%;
 background: linear-gradient(90deg, rgba(207, 228, 253, 0.884) 0%, transparent 50%, rgba(203, 222, 247, 0.884) 100%);
 transition: 1s;
 } */
-
-
 
 .divContainerProfile02 {
   align-items: center;
@@ -56,21 +56,18 @@ transition: 1s;
   transition: 1s;
 }
 
-.divContainerProfile04{
+.divContainerProfile04 {
   padding: 1rem;
-border-bottom:solid .1rem rgba(37, 82, 122, 0.185);
-border-top: solid .1rem rgba(0, 38, 71, 0.199);
-border-radius: 50%;
-position: relative;
-
+  border-bottom: solid 0.1rem rgba(37, 82, 122, 0.185);
+  border-top: solid 0.1rem rgba(0, 38, 71, 0.199);
+  border-radius: 50%;
+  position: relative;
 }
 
-
-
 .divContainerProfile03 > h1 {
-  margin-bottom: 4rem;  
+  margin-bottom: 4rem;
   font-size: 2rem;
-  padding: .5rem 1rem .5rem 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
   font-family: "Raleway", sans-serif;
   color: white;
   background-color: rgb(27, 120, 167);
@@ -80,20 +77,20 @@ position: relative;
   text-align: left;
   justify-content: center;
   font-family: "Raleway", sans-serif;
-   padding: 2rem;
-width: 40vw;
+  padding: 2rem;
+  width: 40vw;
   color: rgb(37, 83, 122);
-  border:solid .1rem rgb(66, 108, 148);
+  border: solid 0.1rem rgb(66, 108, 148);
   position: relative;
   z-index: 1;
   /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(206,217,237,1) 94%); */
 
-hyphens: auto;
+  hyphens: auto;
 }
 
-.divContainerProfile03 > h2 > img{
+.divContainerProfile03 > h2 > img {
   float: left;
-  margin: 0 1rem .5rem 0;
+  margin: 0 1rem 0.5rem 0;
 }
 
 .divContainerProfile03 > h2::before {
@@ -103,21 +100,20 @@ hyphens: auto;
   height: 100%;
   left: -2.5%;
   top: 2%;
-width: 105%;
-border: solid .1rem rgb(55, 83, 116);
-transform: skew(-5deg,0);
+  width: 105%;
+  border: solid 0.1rem rgb(55, 83, 116);
+  transform: skew(-5deg, 0);
 }
-
 
 .divContainerProfile05 {
   font-size: 1.5rem;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   color: rgb(60, 81, 99);
-  background-color: rgb(212, 226, 240);;
+  background-color: rgb(212, 226, 240);
   width: 100%;
   text-align: center;
-  padding: .3rem 0 .3rem 0;
+  padding: 0.3rem 0 0.3rem 0;
 }
 
 .divContainerProfile06 {
@@ -136,11 +132,11 @@ transform: skew(-5deg,0);
   transition: 1s;
 }
 
-.divContainerProfile07 > h1{
+.divContainerProfile07 > h1 {
   color: rgb(255, 255, 255);
   background-color: rgb(27, 120, 167);
   font-family: "Raleway", sans-serif;
-  padding: .5rem 2rem .5rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   text-align: center;
   font-size: 2rem;
 }
@@ -159,40 +155,76 @@ transform: skew(-5deg,0);
 }
 
 .divContainerProfile08 {
-
   width: 45rem;
 }
 .divContainerProfile10 {
- 
 }
 
 .divContainerProfile10 > h2 {
   font-family: "Raleway", sans-serif;
   color: rgb(37, 83, 122);
   font-size: 1.2rem;
-  padding: .3rem 0 .3rem 1rem;
+  padding: 0.3rem 0 0.3rem 1rem;
 }
 
 .divContainerProfile11 {
- border-radius: 0 0 .5rem .5rem;
- background-color: rgb(27, 120, 167);
-  gap: .5rem;
-  padding: .5rem 1rem .5rem 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background-color: rgb(27, 120, 167);
+  gap: 0.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 .divContainerProfile11 > h3 {
   color: white;
   font-family: "Raleway", sans-serif;
-  border: solid .1rem white;
-  padding: .2rem .3rem .2rem .3rem;
-  border-radius: .5rem;
+  border: solid 0.1rem white;
+  padding: 0.2rem 0.3rem 0.2rem 0.3rem;
+  border-radius: 0.5rem;
 }
 
 .divContainerProfile07 {
   padding: 4rem 0 4rem 0;
 }
+.divContainerProfile15 {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: auto auto ;
+}
+
+.divContainerProfile15 > h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  justify-content: center;
+  font-family: "Raleway", sans-serif;
+  border: solid 0.1rem rgb(66, 108, 148);
+  color: rgb(37, 83, 122);
+  text-align: center;
+  padding: 1rem;
+}
+
+.divContainerProfile15 > h2:hover {
+  border: solid 0.1rem rgb(66, 108, 148);
+  color: rgb(84, 131, 172);
+ 
+}
 
 
+
+.divContainerProfile14 {
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  transition: 1s;
+  padding: 2rem 0 2rem 0;
+}
+.divContainerProfile14 > h1 {
+  color: rgb(255, 255, 255);
+  background-color: rgb(27, 120, 167);
+  font-family: "Raleway", sans-serif;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  text-align: center;
+  font-size: 2rem;
+}
 .divContainerProfile12 {
   justify-content: center;
   align-items: center;
@@ -201,11 +233,11 @@ transform: skew(-5deg,0);
   padding: 2rem 0 0 0;
 }
 
-.divContainerProfile12 > h1{
+.divContainerProfile12 > h1 {
   color: rgb(255, 255, 255);
   background-color: rgb(27, 120, 167);
   font-family: "Raleway", sans-serif;
-  padding: .5rem 2rem .5rem 2rem;
+  padding: 0.5rem 2rem 0.5rem 2rem;
   text-align: center;
   font-size: 2rem;
 }
@@ -217,15 +249,14 @@ transform: skew(-5deg,0);
   font-family: "Raleway", sans-serif;
   padding: 2rem;
   width: 40vw;
-  border: solid .1rem rgb(66, 108, 148);
+  border: solid 0.1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
   position: relative;
   hyphens: auto;
 }
-.divContainerProfile12 > h2 > img{
-float: left;
+.divContainerProfile12 > h2 > img {
+  float: left;
 }
-
 
 .divContainerProfile12 > h2::before {
   z-index: -1;
@@ -234,29 +265,28 @@ float: left;
   height: 100%;
   left: -2.5%;
   top: 2%;
-width: 105%;
-border: solid .1rem rgb(55, 83, 116);
-transform: skew(-5deg,0);
+  width: 105%;
+  border: solid 0.1rem rgb(55, 83, 116);
+  transform: skew(-5deg, 0);
 }
 
-
-.divContainerProfile13{
-  border-left:solid .1rem rgb(60, 81, 99);
-  border-right:solid .1rem rgb(60, 81, 99);
+.divContainerProfile13 {
+  border-left: solid 0.1rem rgb(60, 81, 99);
+  border-right: solid 0.1rem rgb(60, 81, 99);
   border-radius: 50%;
   padding: 4rem;
-top:-.5rem;
-left:-.6rem;
+  top: -0.5rem;
+  left: -0.6rem;
   animation-name: profileMovi;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   position: absolute;
-/*   background-color: rgb(217, 230, 236) ; */
+  /*   background-color: rgb(217, 230, 236) ; */
 }
 
 @keyframes profileMovi {
-  100%{
-    transform:rotate(360deg);
+  100% {
+    transform: rotate(360deg);
   }
 }

@@ -2,6 +2,8 @@ import "../../styles/header/index.css";
 import "../../styles/header/responsiveIndex.css";
 import svgIllustrations from "../../svg/index.jsx";
 import curriculum from "../../pdf/CVCRISTOBALORTEGA.pdf";
+
+import curriculumIco from "../../svg/img/briefcase_icon.svg"
 import { useSelector } from "react-redux";
 
 const Header = () => {
@@ -17,7 +19,7 @@ const Header = () => {
           <h1>Cristóbal Ortega</h1>
           <h1></h1>
           <a href={curriculum} download>
-            <button>Descargar Curriculum </button>
+            <button >Descargar Curriculum</button>
           </a>
         </div>
         <div className="divContainerHeader02">
