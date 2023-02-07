@@ -159,11 +159,7 @@
   background-color: rgb(198, 214, 230);
   padding: 0.2rem 1rem 0.2rem 1rem;
   border-radius: 0.1rem;
-  box-shadow: 0rem 0rem 0.05rem 0.1rem rgb(155, 168, 196);
-  /* animation-name: loopTechnologies;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear; */
+ 
 }
 
 /* @keyframes loopTechnologies {

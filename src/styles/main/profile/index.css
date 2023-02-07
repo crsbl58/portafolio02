@@ -199,7 +199,8 @@ transition: 1s;
   border: solid 0.1rem rgb(66, 108, 148);
   color: rgb(37, 83, 122);
   text-align: center;
-  padding: 1rem;
+  padding: .5rem;
+ 
 }
 
 .divContainerProfile15 > h2:hover {
