@@ -179,17 +179,6 @@ const Profile = () => {
           );
         })}
       </div>
-
-      <div className="divContainerProfile14 flexColumn">
-        <h1>Aptitudes</h1>
-
-        <div className="divContainerProfile15 ">
-          {stateProfile02.map((list) => {
-            return <h2><img style={{width:"3rem"}} src={list.svg00}></img> {list.title}</h2>;
-          })}
-        </div>
-      </div>
-
       <div
         style={selector.profileMovi03}
         className="divContainerProfile12 flexColumn"
@@ -206,6 +195,17 @@ const Profile = () => {
           profesional capaz y adecuado ante cualquier tarea.
         </h2>
       </div>
+      <div className="divContainerProfile14 flexColumn">
+        <h1>Aptitudes</h1>
+
+        <div className="divContainerProfile15 ">
+          {stateProfile02.map((list) => {
+            return <h2><img style={{width:"3rem"}} src={list.svg00}></img> {list.title}</h2>;
+          })}
+        </div>
+      </div>
+
+   
     </div>
   );
 };

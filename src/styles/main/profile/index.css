@@ -234,6 +234,7 @@ gap: .5rem;
   gap: 1rem;
   transition: 1s;
   padding: 2rem 0 0 0;
+  margin-bottom: 4rem;
 }
 
 .divContainerProfile12 > h1 {
