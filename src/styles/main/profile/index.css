@@ -139,6 +139,7 @@ transition: 1s;
   padding: 0.5rem 2rem 0.5rem 2rem;
   text-align: center;
   font-size: 2rem;
+  margin-bottom: 3rem;
 }
 
 .divContainerProfile09 {
@@ -225,6 +226,7 @@ gap: .5rem;
   padding: 0.5rem 2rem 0.5rem 2rem;
   text-align: center;
   font-size: 2rem;
+  margin-bottom:3rem;
 }
 .divContainerProfile12 {
   justify-content: center;
@@ -241,6 +243,8 @@ gap: .5rem;
   padding: 0.5rem 2rem 0.5rem 2rem;
   text-align: center;
   font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 .divContainerProfile12 > h2 {
