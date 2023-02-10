@@ -63,6 +63,14 @@ const Slider = () => {
           urlgit={"https://github.com/crsbl/reservas"}
           info={"Html5, css3, React.js"}
         />
+          <CardSlider
+          numCard={0}
+          name={"Chat online"}
+          img={""}
+          url={"https://chat-u4ws.vercel.app/"}
+          urlgit={"https://github.com/crsbl/chat"}
+          info={"Html5, css3, React.js, Socketio"}
+        />
         <CardSlider
           numCard={2}
           name={"Maqueta"}
