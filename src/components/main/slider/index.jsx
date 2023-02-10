@@ -7,6 +7,7 @@ import imgSlider03 from "../../../svg/img/slider03.jpg";
 import imgSlider04 from "../../../svg/img/slider04.jpg";
 import imgSlider05 from "../../../svg/img/slider05.jpg";
 import imgSlider06 from "../../../svg/img/calendario.jpg";
+import imgSlider07 from "../../../svg/img/chat.jpg";
 import { useSelector } from "react-redux";
 
 const Slider = () => {
@@ -66,7 +67,7 @@ const Slider = () => {
           <CardSlider
           numCard={0}
           name={"Chat online"}
-          img={""}
+          img={imgSlider07}
           url={"https://chat-u4ws.vercel.app/"}
           urlgit={"https://github.com/crsbl/chat"}
           info={"Html5, css3, React.js, Socketio"}
