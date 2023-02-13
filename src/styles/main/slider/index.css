@@ -59,7 +59,7 @@
   z-index: 0;
   width: 18.5rem;
   height: 15rem;
-  background-color: rgb(54, 71, 109);
+  background-color: rgb(189, 188, 134);
   transition: .3s;
   clip-path: polygon(0% 20%, 100% 5%, 100% 80%, 0% 95%);
 }
@@ -71,6 +71,7 @@
   height: 17rem;
   width: 19rem;
   clip-path: polygon(0% 15%, 100% 0%, 100% 80%, 0% 95%);
+  background-color: rgb(189, 187, 84);
 }
 
 
