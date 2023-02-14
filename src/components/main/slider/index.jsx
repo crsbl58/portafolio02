@@ -8,6 +8,7 @@ import imgSlider04 from "../../../svg/img/slider04.jpg";
 import imgSlider05 from "../../../svg/img/slider05.jpg";
 import imgSlider06 from "../../../svg/img/calendario.jpg";
 import imgSlider07 from "../../../svg/img/chat.jpg";
+import imgSlider08 from "../../../svg/img/crud.jpg";
 import { useSelector } from "react-redux";
 
 const Slider = () => {
@@ -71,6 +72,14 @@ const Slider = () => {
           url={"https://chat-u4ws.vercel.app/"}
           urlgit={"https://github.com/crsbl/chat"}
           info={"Html5, css3, React.js, Socketio"}
+        />
+          <CardSlider
+          numCard={0}
+          name={"Crud"}
+          img={imgSlider08}
+          url={"https://crud-flax-zeta.vercel.app/"}
+          urlgit={"https://github.com/crsbl/crud"}
+          info={"Html5, css3, React.js"}
         />
         <CardSlider
           numCard={2}
