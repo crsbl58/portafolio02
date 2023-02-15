@@ -7,7 +7,7 @@ const Nav = () => {
   const dispatch = useDispatch();
   return (
     <nav>
-      <ul className="flexRowWrap">
+      <ul>
         <li>
           <Link
           activeStyle={{backgroundColor:"rgba(47, 177, 144, 0.856)"}}
@@ -147,7 +147,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
           >
-            Tecnologias
+            Skills
           </Link>
         </li>
         <li>

@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
-import "./App.css";
 import "./styles/constant.css";
+import "./App.css";
 import Header from "./components/header/index";
 import Main from "./components/main/index";
 import React, { useState } from "react";

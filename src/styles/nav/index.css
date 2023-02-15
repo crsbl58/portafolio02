@@ -8,6 +8,8 @@ nav {
 
 nav > ul {
   list-style-type: none;
+  display: flex;
+  flex-flow: row nowrap;
   /*  background-color: rgba(21, 43, 54, 0.712); 
   padding: 0rem 1rem 0.3rem 0.5rem;
   gap: 0.3rem;
