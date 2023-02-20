@@ -81,6 +81,14 @@ const Slider = () => {
           urlgit={"https://github.com/crsbl/crud"}
           info={"Html5, css3, React.js"}
         />
+          <CardSlider
+          numCard={0}
+          name={"E-commerce "}
+          img={imgSlider08}
+          url={"https://e-commerce-delta-lovat.vercel.app/"}
+          urlgit={"https://github.com/crsbl/e-commerce"}
+          info={"Html5, css3, React.js"}
+        />
         <CardSlider
           numCard={2}
           name={"Maqueta"}

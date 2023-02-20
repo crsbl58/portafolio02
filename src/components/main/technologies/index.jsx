@@ -68,7 +68,7 @@ const Technologies = () => {
           style={selector.technologiesMovi00}
           className="divTechnologies01 flexColumn"
         >
-          <h1>Tecnologías</h1>
+          <h1>Skills</h1>
           <div className="divTechnologies02  flexRowWrap">
             {stateTechnologies00.map((list) => {
               return (
