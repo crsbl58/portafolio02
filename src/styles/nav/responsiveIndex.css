@@ -1,18 +1,15 @@
 @media only screen and (max-width: 750px) {
   nav > ul {
-   
-
     padding: 0rem 0.1rem 0.1rem 0;
-    border-radius: 0 0 .5rem 0;
-   background-color: rgb(42, 44, 46);
+    border-radius: 0 0 0.5rem 0;
+    background-color: rgb(42, 44, 46);
     visibility: hidden;
     opacity: 0;
-   flex-flow: column nowrap;
- }
+    flex-flow: row wrap;
+  }
 
   nav {
-  
-background-color: rgb(60, 79, 100);
+    background-color: rgb(60, 79, 100);
     top: 0.5rem;
     left: 0.5rem;
     border-radius: 50%;
@@ -22,7 +19,6 @@ background-color: rgb(60, 79, 100);
     transition: 0.3s;
     justify-content: center;
     align-items: center;
-   
   }
   nav::after {
     visibility: visible;
@@ -36,18 +32,18 @@ background-color: rgb(60, 79, 100);
   }
 
   nav:hover {
-
     top: 0rem;
     left: 0rem;
     height: auto;
     width: auto;
     overflow: hidden;
     border-radius: 0%;
- 
   }
   nav:hover > ul {
     visibility: visible;
     opacity: 1;
+    justify-content: center;
+    background-color: rgb(37, 92, 141);
   }
 
   nav > ul::after {
@@ -56,17 +52,22 @@ background-color: rgb(60, 79, 100);
   }
 
   nav > ul > li {
+    border-bottom: none;
+    border-left: none;
+    box-shadow: none;
     padding: 0rem 0.5rem 0rem 0.5rem;
     font-size: 1.5rem;
     font-weight: 800;
     font-family: "Bowlby One SC", cursive;
     color: rgb(221, 227, 243);
+    border-radius: 0;
     cursor: pointer;
     transition: 0.3s;
     transform: skew(0, 0);
   }
   nav > ul > li > a {
     padding: 0.1rem 0.2rem 0.2rem 0.2rem;
-    width: 100%;text-align: center;
+    width: 100%;
+    text-align: center;
   }
 }
