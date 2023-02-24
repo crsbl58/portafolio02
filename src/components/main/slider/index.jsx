@@ -9,6 +9,8 @@ import imgSlider05 from "../../../svg/img/slider05.jpg";
 import imgSlider06 from "../../../svg/img/calendario.jpg";
 import imgSlider07 from "../../../svg/img/chat.jpg";
 import imgSlider08 from "../../../svg/img/crud.jpg";
+import imgSlider09 from "../../../svg/img/analisisdedatos.jpg";
+
 import { useSelector } from "react-redux";
 
 const Slider = () => {
@@ -55,7 +57,7 @@ const Slider = () => {
           img={imgSlider00}
           url={"https://portafolio-frontend-drab.vercel.app/"}
           urlgit={"https://github.com/crsbl/portafolioFrontend"}
-          info={"Html5, css3, React.js, typeScript, node.js"}
+          info={"Html5, Css3, React.js, TypeScript, Node.js"}
         />
         <CardSlider
           numCard={0}
@@ -63,7 +65,7 @@ const Slider = () => {
           img={imgSlider06}
           url={"https://reservas-git-main-crsbl.vercel.app/"}
           urlgit={"https://github.com/crsbl/reservas"}
-          info={"Html5, css3, React.js"}
+          info={"Html5, Css3, React.js"}
         />
           <CardSlider
           numCard={0}
@@ -71,7 +73,7 @@ const Slider = () => {
           img={imgSlider07}
           url={"https://chat-u4ws.vercel.app/"}
           urlgit={"https://github.com/crsbl/chat"}
-          info={"Html5, css3, React.js, Socketio"}
+          info={"Html5, Css3, React.js, Socketio"}
         />
           <CardSlider
           numCard={0}
@@ -79,7 +81,7 @@ const Slider = () => {
           img={imgSlider08}
           url={"https://crud-flax-zeta.vercel.app/"}
           urlgit={"https://github.com/crsbl/crud"}
-          info={"Html5, css3, React.js"}
+          info={"Html5, Css3, React.js"}
         />
           <CardSlider
           numCard={0}
@@ -89,13 +91,21 @@ const Slider = () => {
           urlgit={"https://github.com/crsbl/e-commerce"}
           info={"Html5, css3, React.js"}
         />
+               <CardSlider
+          numCard={0}
+          name={"Analisis de ventas "}
+          img={imgSlider09}
+          url={"https://sales-analysis.vercel.app/"}
+          urlgit={"https://github.com/crsbl/SalesAnalysis"}
+          info={"Html5, Css3, React.js, Redux"}
+        />
         <CardSlider
           numCard={2}
           name={"Maqueta"}
           img={imgSlider02}
           url={"https://test-propulso.vercel.app/#"}
           urlgit={"https://github.com/crsbl/Maqueta00"}
-          info={"Html5, css3"}
+          info={"Html5, Css3"}
         />
         <CardSlider
           numCard={3}
@@ -103,7 +113,7 @@ const Slider = () => {
           img={imgSlider03}
           url={"https://prueba04.vercel.app/"}
           urlgit={"https://github.com/crsbl/prueba04"}
-          info={"Html5, css3"}
+          info={"Html5, Css3"}
         />
         <CardSlider
           numCard={4}
@@ -111,7 +121,7 @@ const Slider = () => {
           img={imgSlider04}
           url={"https://datos-pais.vercel.app/"}
           urlgit={"https://github.com/crsbl/InfoPais"}
-          info={"Html5, css3, React.js"}
+          info={"Html5, Css3, React.js"}
         />
         <CardSlider
           numCard={5}
@@ -119,7 +129,7 @@ const Slider = () => {
           img={imgSlider05}
           url={"https://cugat-publicidad-kleg.vercel.app/"}
           urlgit={"https://github.com/crsbl/cugatPublicidad"}
-          info={"Html5, css3, javascript"}
+          info={"Html5, Css3, Javascript"}
         />{" "}
         <CardSlider
           numCard={1}
@@ -127,7 +137,7 @@ const Slider = () => {
           img={imgSlider01}
           url={"https://test-seven-psi-61.vercel.app/"}
           urlgit={"https://github.com/crsbl/test"}
-          info={"Html5, css3, Next.js"}
+          info={"Html5, Css3, Next.js"}
         />
       </div>
     </div>
