@@ -178,7 +178,7 @@ const Nav = () => {
             spy={true}
             smooth={true}
           >
-            Paginas
+            Proyectos
           </Link>
         </li>
       </ul>

@@ -45,7 +45,7 @@ const Slider = () => {
 
   return (
     <div id="templates" className="divContainerSlider00 flexColumn">
-      <h1>Paginas</h1>
+      <h1>Proyectos</h1>
 
       <div
         style={selector.sliderMovi00}
