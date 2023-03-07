@@ -100,6 +100,14 @@ const Slider = () => {
           info={"Html5, Css3, React.js, Redux"}
         />
         <CardSlider
+          numCard={0}
+          name={"Formulario"}
+          img={imgSlider09}
+          url={"https://formulario00.vercel.app/"}
+          urlgit={"https://github.com/crsbl/formulario00"}
+          info={"Html5, Css3, React.js, Redux"}
+        />
+        <CardSlider
           numCard={2}
           name={"Maqueta"}
           img={imgSlider02}
