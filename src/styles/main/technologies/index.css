@@ -71,7 +71,7 @@
 }
 
 .divTechnologies03 {
-  width: 10rem;
+  width: 9rem;
   justify-content: center;
   gap: 0.5rem;
 }
@@ -90,6 +90,7 @@
   border-radius: 5%;
   padding: 0.5rem;
   width: 5.5rem;
+  height: 7rem;
   transition: 0.3s;
   filter: sepia(0.3);
 }
@@ -131,7 +132,7 @@
 
 .divTechnologies05 {
   gap: 1rem;
-  padding: 2rem 20rem 2rem 20rem;
+  padding: 2rem 15rem 2rem 15rem;
   justify-content: center;
   align-items: center;
   background-color: rgba(34, 28, 28, 0.527);

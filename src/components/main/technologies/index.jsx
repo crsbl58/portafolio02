@@ -6,10 +6,11 @@ import imgJavascript_00 from "../../../svg/img/javascript-1.svg";
 import imgReact_00 from "../../../svg/img/react-2.svg";
 import imgNode_00 from "../../../svg/img/nodejs-icon.svg";
 import imgExpress_00 from "../../../svg/img/express.svg";
-
+import imgNext from "../../../svg/img/next-js.svg"
+import imgSass from "../../../svg/img/sass.svg"
 import imgHtml5_00 from "../../../svg/img/html-1.svg";
-
 import svg from "../../../svg/index";
+
 import { useState } from "react";
 import { useSelector } from "react-redux";
 
@@ -24,6 +25,11 @@ const Technologies = () => {
       img01: svg().css3Background,
     },
     {
+      title: "Sass",
+      img00: imgSass,
+      img01: svg().css3Background,
+    },
+    {
       title: "Javascript",
       img00: imgJavascript_00,
       img01: svg().jsBackground,
@@ -31,6 +37,11 @@ const Technologies = () => {
     {
       title: "React.js",
       img00: imgReact_00,
+      img01: svg().reactBackground,
+    }, 
+    {
+      title: "Next.js",
+      img00: imgNext,
       img01: svg().reactBackground,
     },
     {
@@ -45,19 +56,27 @@ const Technologies = () => {
     },
   ]);
   const [stateTechnologies01] = useState([
-    "mysql",
-    "mongodb",
-    "git",
-    "flexbox",
-    "grid",
-    "typescript",
-    "hooks",
-    "context",
-    "redux",
-    "styled",
-    "socketio",
-    "reactrouterdom",
-    "react-scroll"
+    "Mysql",
+    "Mongodb",
+    "Flexbox",
+    "Grid",
+    "TypeScript",
+    "Xlsx",
+    "Html-pdf",
+    "Multer",
+    "Hooks",
+    "Context",
+    "Redux",
+    "Zustand",
+    "Atomic Design",
+    "Axios",
+    "Antd",
+    "MVC",
+    "Git",
+    "Styled",
+    "Socketio",
+    "Reactrouterdom",
+    "React-scroll"
   ]);
 
   const selector = useSelector((state) => state.scrollReducer);

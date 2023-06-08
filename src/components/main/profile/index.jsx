@@ -57,6 +57,26 @@ const Profile = () => {
         "Jira",
       ],
     },
+    {
+      job: "Full stack",
+      business: "matus",
+      experience: "9 de marzo - actualidad",
+      tools: [
+        "Sass",
+        "React.js",
+        "Next.js",
+        "Zustand",
+        "Atomic Design",
+        "Node.js",
+        "Express",
+        "Mysql",
+        "MVC",
+        "TypeScript",
+        "Socketio",
+        "Axios",
+        "Git"
+      ],
+    },
   ]);
 
   const [stateProfile02] = useState([
