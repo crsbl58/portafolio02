@@ -10,6 +10,8 @@ import imgSlider06 from "../../../svg/img/calendario.jpg";
 import imgSlider07 from "../../../svg/img/chat.jpg";
 import imgSlider08 from "../../../svg/img/crud.jpg";
 import imgSlider09 from "../../../svg/img/analisisdedatos.jpg";
+import imgSlider10 from "../../../svg/img/generator.jpg";
+
 
 import { useSelector } from "react-redux";
 
@@ -58,6 +60,16 @@ const Slider = () => {
           url={"https://portafolio-frontend-drab.vercel.app/"}
           urlgit={"https://github.com/crsbl/portafolioFrontend"}
           info={"Html5, Css3, React.js, TypeScript, Node.js"}
+        />
+        <CardSlider
+          numCard={0}
+          name={"Generador PdfExcel"}
+          img={imgSlider10}
+          url={"https://generador-pdf-excel.vercel.app/"}
+          urlgit={
+            "https://github.com/crsbl58/generadorPdfExcel/blob/main/api/src/controllers/generator.ts"
+          }
+          info={"Next, Sass, Node, Express, TypeScript"}
         />
         <CardSlider
           numCard={0}
