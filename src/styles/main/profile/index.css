@@ -128,7 +128,7 @@ transition: 1s;
 .divContainerProfile07 {
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 3rem;
   transition: 1s;
 }
 
@@ -161,10 +161,26 @@ transition: 1s;
 .divContainerProfile10 {
 }
 
-.divContainerProfile10 > h2 {
+.divContainerProfile16{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .3rem;
+}
+
+.divContainerProfile16> h2{
+background-color: rgb(212, 226, 240);
   font-family: "Raleway", sans-serif;
   color: rgb(37, 83, 122);
   font-size: 1.2rem;
+  padding: 0.3rem 0 0.3rem 1rem;
+}
+
+
+.divContainerProfile10 > h2 {
+ 
+  font-family: "Raleway", sans-serif;
+  color: rgb(37, 83, 122);
+  font-size: 1.3rem;
   padding: 0.3rem 0 0.3rem 1rem;
 }
 

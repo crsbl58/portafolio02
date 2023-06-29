@@ -6,7 +6,7 @@ import svgLocation from "../../../svg/img/location_map_optimization.svg";
 import svgEducation from "../../../svg/img/certificates_education.svg";
 import svgBriefcase from "../../../svg/img/briefcase_icon.svg";
 import svgLearning from "../../../svg/img/education_learning.svg";
-import starIcon from '../../../svg/img/star_icon.svg'
+import starIcon from "../../../svg/img/star_icon.svg";
 
 import { useSelector } from "react-redux";
 
@@ -32,19 +32,34 @@ const Profile = () => {
     {
       job: "Estudio fotografico",
       business: "Altom",
-      experience: "6 meses",
+      timeExperience: "6 meses",
+      experiencepoints: [""],
       tools: ["photoshop"],
     },
     {
       job: "Soporte informatico",
       business: "Supermercado Cugat",
-      experience: "1 año 6 meses",
+      timeExperience: "1 año 6 meses",
+      experiencepoints: [
+        "Responsable de brindar asistencia técnica y soluciones a los problemas informáticos en el Supermercado Cugat",
+        "Durante 1 año y 6 meses, ofrecí soporte técnico para garantizar el correcto funcionamiento de los sistemas y equipos de la empresa.",
+        "Aproveché los tiempos muertos para adquirir habilidades en desarrollo web.",
+        "Adquirí conocimientos en CSS, HTML, JavaScript y PHP durante mi tiempo en la empresa.",
+        "Estas habilidades adicionales me permitieron mejorar mi perfil profesional y estar preparado para asumir proyectos de desarrollo web.",
+      ],
       tools: ["Soporte", "Html5", "Css3", "Javascript"],
     },
     {
       job: "Frontend",
       business: "jumpitt",
-      experience: "3 meses",
+      timeExperience: "3 meses",
+      experiencepoints: [
+        "Durante este tiempo, utilicé una variedad de tecnologías y herramientas, incluyendo JavaScript, React.js, Antd, Redux, TypeScript, Git y Jira.",
+        "Utilicé la biblioteca Antd para implementar componentes y diseñar aplicaciones web con una apariencia moderna y estilizada.",
+        "Integré el estado de la aplicación utilizando Redux y TypeScript para garantizar un flujo de datos coherente y una mejor mantenibilidad del código.",
+        "Colaboré en un entorno colaborativo utilizando Git como sistema de control de versiones.",
+        "Participé en la gestión de tareas y seguimiento del proyecto utilizando Jira para mantener un flujo de trabajo eficiente.",
+      ],
       tools: [
         "Html5",
         "Css3",
@@ -60,7 +75,14 @@ const Profile = () => {
     {
       job: "Full stack",
       business: "matus",
-      experience: "9 de marzo - actualidad",
+      timeExperience: "9 de marzo - actualidad",
+      experiencepoints: [
+        "Estoy participando en un proyecto de desarrollo de una aplicación para una pastelería que registra todos los procesos de elaboración de las tortas, desde su programación hasta la distribución en las sucursales.",
+        "En el frontend, utilizo React.js y Next.js para crear una interfaz de usuario atractiva y receptiva.",
+        "Sigo el patrón de diseño Atomic Design para una estructura escalable y modular de los componentes de la aplicación.",
+        "En el backend, trabajo con Node.js y Express para construir una API robusta y segura.",
+        "Me comunico con APIs externas utilizando Axios para realizar solicitudes HTTP y obtener información adicional para la aplicación.",
+      ],
       tools: [
         "Sass",
         "React.js",
@@ -74,7 +96,7 @@ const Profile = () => {
         "TypeScript",
         "Socketio",
         "Axios",
-        "Git"
+        "Git",
       ],
     },
   ]);
@@ -123,7 +145,6 @@ const Profile = () => {
   ]);
 
   const selector = useSelector((state) => state.scrollReducer);
-  console.log(selector);
   return (
     <div id="about" className={`divContainerProfile00 flexColumn`}>
       {/*  <div style={{width:"10rem"}}>{svg().wallpaper00}</div> */}
@@ -188,7 +209,10 @@ const Profile = () => {
                 <h2>{liststateProfile01.business}</h2>
               </div>
               <div className="divContainerProfile10 flexRow">
-                <h2>{liststateProfile01.experience}</h2>
+                <h2>{liststateProfile01.timeExperience}</h2>
+              </div>
+              <div className="divContainerProfile16 flexRow">
+                {liststateProfile01.experiencepoints.map((list)=>{return<h2>{list}</h2>})}
               </div>
               <div className="divContainerProfile11 flexRowWrap">
                 {liststateProfile01.tools.map((list) => {
@@ -220,12 +244,15 @@ const Profile = () => {
 
         <div className="divContainerProfile15 ">
           {stateProfile02.map((list) => {
-            return <h2><img style={{width:"3rem"}} src={list.svg00}></img> {list.title}</h2>;
+            return (
+              <h2>
+                <img style={{ width: "3rem" }} src={list.svg00}></img>{" "}
+                {list.title}
+              </h2>
+            );
           })}
         </div>
       </div>
-
-   
     </div>
   );
 };

@@ -55,7 +55,7 @@ const Slider = () => {
       >
         <CardSlider
           numCard={0}
-          name={"Portafolio"}
+          name={"Portafolio 2022"}
           img={imgSlider00}
           url={"https://portafolio-frontend-drab.vercel.app/"}
           urlgit={"https://github.com/crsbl/portafolioFrontend"}
