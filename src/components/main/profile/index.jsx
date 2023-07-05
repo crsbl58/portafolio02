@@ -39,7 +39,7 @@ const Profile = () => {
     {
       job: "Soporte informatico",
       business: "Supermercado Cugat",
-      timeExperience: "1 año 6 meses",
+      timeExperience: "2020- 1 año 6 meses",
       experiencepoints: [
         "Responsable de brindar asistencia técnica y soluciones a los problemas informáticos en el Supermercado Cugat",
         "Durante 1 año y 6 meses, ofrecí soporte técnico para garantizar el correcto funcionamiento de los sistemas y equipos de la empresa.",
@@ -52,7 +52,7 @@ const Profile = () => {
     {
       job: "Frontend",
       business: "jumpitt",
-      timeExperience: "3 meses",
+      timeExperience: "2022 - 3 meses",
       experiencepoints: [
         "Durante este tiempo, utilicé una variedad de tecnologías y herramientas, incluyendo JavaScript, React.js, Antd, Redux, TypeScript, Git y Jira.",
         "Utilicé la biblioteca Antd para implementar componentes y diseñar aplicaciones web con una apariencia moderna y estilizada.",
@@ -75,7 +75,7 @@ const Profile = () => {
     {
       job: "Full stack",
       business: "matus",
-      timeExperience: "9 de marzo - actualidad",
+      timeExperience: "2023 - 9 de marzo - 1 de julio",
       experiencepoints: [
         "Estoy participando en un proyecto de desarrollo de una aplicación para una pastelería que registra todos los procesos de elaboración de las tortas, desde su programación hasta la distribución en las sucursales.",
         "En el frontend, utilizo React.js y Next.js para crear una interfaz de usuario atractiva y receptiva.",
