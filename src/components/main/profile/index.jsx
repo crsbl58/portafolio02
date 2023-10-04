@@ -99,6 +99,35 @@ const Profile = () => {
         "Git",
       ],
     },
+    {
+      job: "Full stack",
+      business: "Freelancer - Gases ñubles",
+      timeExperience: "2023 - 17 de julio - actualidad",
+      experiencepoints: [
+        "Estoy desarrollando un proyecto de una aplicación para una empresa de reparto y arriendo de cilindros con distintos contenido.",
+        "En el frontend, utilizo Next.js para crear una interfaz de usuario atractiva y receptiva.",
+        "Sigo el patrón de diseño Atomic Design para una estructura escalable y modular de los componentes de la aplicación.",
+        "En el backend, trabajo con Node.js y Express con typescript para construir una API robusta y segura.",
+        "su principal funcion, es dar informes de los repartos y estados de los cilindros (vacio, en uso, entregando, entregado, recepcionando, recepcionado), al igual informacion de sus distintos clientes, como fechas y datos revelantes.",
+      ],
+      tools: [
+        "Sass",
+        "React.js",
+        "Next.js",
+        "Zustand",
+        "Atomic Design",
+        "Node.js",
+        "Express",
+        "Mysql",
+        "MVC",
+        "TypeScript",
+        "Socketio",
+        "Axios",
+        "Git",
+        "Xlsx",
+        "jsonWebToken"
+      ],
+    },
   ]);
 
   const [stateProfile02] = useState([
